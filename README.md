@@ -36,16 +36,6 @@
 ## 📊 GitHub Stats
 
 <img src="https://github-readme-stats.vercel.app/api?username=aayush-1o&show_icons=true&hide_border=true&title_color=C084FC&icon_color=38BDF8&text_color=E2E8F0&bg_color=0D1117" height="170" />
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayush-1o&layout=compact&hide_border=true&title_color=C084FC&text_color=E2E8F0&bg_color=0D1117&langs_count=8" height="170" />
-
-<br>
-
-<img src="https://streak-stats.demolab.com/?user=aayush-1o&theme=dark&hide_border=true&ring=C084FC&fire=38BDF8&currStreakLabel=C084FC&sideLabels=38BDF8&dates=94A3B8&background=0D1117&stroke=C084FC" height="170" />
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aayush-1o&theme=tokyo-night&hide_border=true&area=true&color=38BDF8&line=C084FC&point=E2E8F0" width="95%" />
 
 </div>
 
