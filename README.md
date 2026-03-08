@@ -33,16 +33,19 @@
 ---
 
 <!-- GitHub Stats -->
-<div align="center">
 
 ## 📊 GitHub Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=aayush-1o&show_icons=true&theme=default&border_color=0077B6&title_color=0077B6&icon_color=0077B6" height="180" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayush-1o&layout=compact&theme=default&border_color=0077B6&title_color=0077B6" height="180" />
-&nbsp;&nbsp;
-<img src="https://streak-stats.demolab.com/?user=aayush-1o&theme=default&ring=0077B6&fire=0077B6&currStreakLabel=0077B6" height="180" />
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=aayush-1o&show_icons=true&theme=tokyonight&hide_border=true&title_color=70a5fd&icon_color=bf91f3&text_color=38bdae&bg_color=1a1b27" height="170" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aayush-1o&layout=compact&theme=tokyonight&hide_border=true&title_color=70a5fd&text_color=38bdae&bg_color=1a1b27" height="170" />
+&nbsp;
+<img src="https://streak-stats.demolab.com/?user=aayush-1o&theme=tokyonight&hide_border=true&ring=70a5fd&fire=bf91f3&currStreakLabel=38bdae&sideLabels=70a5fd&dates=888" height="170" />
+</div>
 
+<div align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=aayush-1o&theme=tokyo-night&hide_border=true&area=true&area_color=70a5fd" width="95%" />
 </div>
 
 ---
@@ -50,9 +53,9 @@
 <!-- Competitive Programming -->
 <div align="center">
 
-## 🏆 Competitive Programming
+## ⚔️ Competitive Programming
 
-<img src="https://leetcard.jacoblin.cool/tZbaWZwiWk?theme=light&font=Nunito&ext=contest" />
+<img src="https://leetcard.jacoblin.cool/tZbaWZwiWk?theme=dark&font=Nunito&ext=contest" />
 
 <br><br>
 
@@ -66,7 +69,7 @@
 <!-- Tech Stack -->
 <div align="center">
 
-## ⚙️ Tech Stack
+## 🧰 Tech Stack
 
 **Languages**
 <img src="https://raw.githubusercontent.com/aayush-1o/aayush-1o/main/assets/c.png" height="40" alt="C"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/aayush-1o/aayush-1o/main/assets/c++.png" height="40" alt="C++"/>&nbsp;&nbsp;<img src="https://skillicons.dev/icons?i=python" width="40" height="40" alt="Python"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/aayush-1o/aayush-1o/main/assets/js.jpeg" height="40" alt="JavaScript"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/aayush-1o/aayush-1o/main/assets/html.png" height="40" alt="HTML"/>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/aayush-1o/aayush-1o/main/assets/css.png" height="40" alt="CSS"/>
@@ -159,7 +162,7 @@
 <!-- Currently Learning -->
 <div align="center">
 
-## � Currently Learning
+## 📚 Currently Learning
 
 | Topic | Area | Status |
 |-------|------|--------|
@@ -175,7 +178,7 @@
 <!-- Activity Graph -->
 <div align="center">
 
-## 📈 Contribution Activity
+## 📈 Activity Graph
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=aayush-1o&theme=github-light&color=0077B6&line=0077B6&point=023E8A&hide_border=true" alt="Activity Graph" width="100%"/>
 
