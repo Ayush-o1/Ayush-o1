@@ -1,10 +1,7 @@
+# This clears the file and lets you paste directly — press Cmd+V, then Ctrl+D when done
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=180&section=header&text=Ayush%20Kumar&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=Backend%20Engineer%20%C2%B7%20API%20Design%20%C2%B7%20Developer%20Tooling&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
-
-<br/>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1500&color=58A6FF&center=true&vCenter=true&multiline=false&width=600&height=30&lines=Building+LLM+infrastructure+%7C+Distributed+systems+%7C+API+middleware" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -21,7 +18,7 @@
 
 B.Tech CSE, 6th semester · Bangalore, India · **Open to Summer / Fall 2026 internships**
 
-I build backend systems with a hard bias toward correctness and developer experience. Currently shipping an LLM proxy that wraps semantic caching, model routing, and context compression behind a standard OpenAI API. I find distributed consistency trade-offs more interesting than most people find weekends.
+I build backend systems with a hard bias toward correctness and developer experience. Currently shipping an LLM proxy that wraps semantic caching, model routing, and context compression behind a standard OpenAI-compatible API. I find distributed consistency trade-offs more interesting than most people find weekends.
 
 <br/>
 
@@ -125,11 +122,7 @@ Ships with a real-time analytics dashboard. 45+ commits. Fully containerized.
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&hide_border=true&area=true" width="95%" />
 </picture>
 
-</div>
-
-<br/>
-
-<div align="center">
+<br/><br/>
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/tZbaWZwiWk/)
 [![GeeksforGeeks](https://img.shields.io/badge/GFG-2f8d46?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/ayushhh0eo)
@@ -138,3 +131,5 @@ Ships with a real-time analytics dashboard. 45+ commits. Fully containerized.
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=100&section=footer" width="100%" />
+cd /Users/ayush/Desktop/profile/Ayush-o1
+code README.md
