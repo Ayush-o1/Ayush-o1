@@ -4,6 +4,8 @@
 
 **Backend Engineer · API Design · Developer Tooling**
 
+[![Visitors](https://komarev.com/ghpvc/?username=Ayush-o1&label=Profile%20Views&color=C084FC&style=flat-square)](https://github.com/Ayush-o1)
+
 [![Open to Internships](https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20to%20Internships-Summer%20%2F%20Fall%202026-C084FC?style=for-the-badge)](mailto:ayushh.pvt10@gmail.com)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ayushh--portfolio-C084FC?style=flat-square&logo=netlify&logoColor=white)](https://ayushh-portfolio-2026.netlify.app/)
@@ -79,6 +81,11 @@ Modular frontend UI with a focus on layout clarity and information density. Buil
 
 <div align="center">
 
+<img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=C084FC&title_color=38BDF8&text_color=E2E8F0" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0" width="48%" />
+
+<br/>
+
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayush-o1&theme=github_dark" width="95%" />
 
 <br/>
@@ -87,7 +94,7 @@ Modular frontend UI with a focus on layout clarity and information density. Buil
 
 <br/>
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=Ayush-o1&theme=dark&hide_border=true&ring=C084FC&fire=38BDF8&currStreakLabel=C084FC&sideLabels=38BDF8&dates=94A3B8&background=0D1117&stroke=C084FC" />
+<img src="https://streak-stats.demolab.com/?user=Ayush-o1&theme=dark&hide_border=true&ring=C084FC&fire=38BDF8&currStreakLabel=C084FC&sideLabels=38BDF8&dates=94A3B8&background=0D1117&stroke=C084FC" />
 
 </div>
 
