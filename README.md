@@ -1,113 +1,75 @@
-<div align="center">
-
 # Ayush Kumar
 
-**Backend Engineer · API Design · Developer Tooling**
+**Backend engineer** building systems where correctness matters — API middleware, knowledge graphs, and developer tooling.
 
-[![Visitors](https://komarev.com/ghpvc/?username=Ayush-o1&label=Profile%20Views&color=C084FC&style=flat-square)](https://github.com/Ayush-o1)
+B.Tech CSE · Bangalore, India · Open to Summer / Fall 2026 internships
 
-[![Open to Internships](https://img.shields.io/badge/%F0%9F%9F%A2%20Open%20to%20Internships-Summer%20%2F%20Fall%202026-C084FC?style=for-the-badge)](mailto:ayushh.pvt10@gmail.com)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-ayushh--portfolio-C084FC?style=flat-square&logo=netlify&logoColor=white)](https://ayushh-portfolio-2026.netlify.app/)
-[![Resume](https://img.shields.io/badge/Resume-View%20PDF-38BDF8?style=flat-square&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1kxhlvHqskwSOJeUYulpRN-Qe_HNPuN1w/view?usp=drive_link)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ayushh--o1-0077B6?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushh-o1/)
-[![Email](https://img.shields.io/badge/Email-ayushh.pvt10%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
-
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B6?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushh-o1/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-111?style=flat&logo=netlify&logoColor=white)](https://ayushh-portfolio-2026.netlify.app/)
+[![Resume](https://img.shields.io/badge/Resume-4285F4?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1kxhlvHqskwSOJeUYulpRN-Qe_HNPuN1w/view?usp=drive_link)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
 
 ---
 
-B.Tech CSE, 6th semester · Bangalore, India
+## Featured Project
 
-I build backend systems with a hard bias toward correctness and developer experience. Currently adding a Kafka stream-processing layer to a knowledge graph platform. I find distributed consistency trade-offs more interesting than most people find weekends.
+### [ContextForge](https://github.com/Ayush-o1/contextforge) — LLM proxy middleware
 
-- **Focus:** Backend architecture, graph systems, API design, developer tooling
-- **Currently learning:** Apache Kafka (since Jan 2026) · Linux internals (since Feb 2026)
-- **Next:** Apache Spark · Advanced React patterns
+OpenAI-compatible gateway that cuts LLM API costs by up to 60% with **zero code changes**. Point your app at `localhost:8000` instead of `api.openai.com` — same SDK, same API.
 
----
+**How it works:** Incoming requests pass through semantic caching (FAISS + Redis, ≥92% cosine similarity), smart model routing (auto-downgrades simple prompts to cheaper models), and context compression (summarizes long conversations to reduce tokens) — all before hitting a paid API. Every request is logged to a local SQLite telemetry database. Ships with a real-time analytics dashboard.
 
-## Projects
-
-### [CortexGraph](https://github.com/Ayush-o1/CortexGraph) — AI-driven knowledge graph platform
-
-NLP + Neo4j + interactive visualization for semantic exploration of unstructured data. Surfaces entity relationships that would otherwise require manual data archaeology across multiple sources.
-
-Currently extending with a Kafka stream-processing layer for real-time graph updates.
-
-`Python` `FastAPI` `React` `Neo4j` `Docker` `Kafka`
+`Python` `FastAPI` `Redis` `FAISS` `Docker` `OpenAI SDK`
 
 ---
 
-### [Onboarder](https://github.com/Ayush-o1/Onboarder) — Developer environment automation
+## Other Projects
 
-Paste a GitHub URL → get a fully configured, running Docker environment. Built to eliminate the "works on my machine" setup tax for new contributors.
-
+**[Onboarder](https://github.com/Ayush-o1/Onboarder)** — Paste a GitHub URL → get a running Docker environment. Eliminates setup friction for new contributors.
 `Node.js` `Docker` `MongoDB` `Express`
 
----
-
-### [auto-Prompt](https://github.com/Ayush-o1/auto-Prompt) — LLM evaluation framework
-
-Structures ad-hoc prompt testing into reproducible, comparable benchmark runs against Google Gemini. Turns one-off experiments into trackable iteration cycles.
-
+**[auto-Prompt](https://github.com/Ayush-o1/auto-Prompt)** — Structures prompt testing into reproducible benchmark runs against Gemini. Turns ad-hoc experiments into trackable iterations.
 `Python` `Jupyter` `Docker`
 
----
-
-### [Truck](https://github.com/Ayush-o1/truck) — Freight logistics dashboard
-
-Modular frontend UI with a focus on layout clarity and information density. Built to prove backend engineers can ship polished interfaces.
-
+**[Truck](https://github.com/Ayush-o1/truck)** — Freight logistics dashboard focused on information density and layout clarity.
 `HTML` `CSS` `JavaScript` `Docker`
 
 ---
 
 ## Stack
 
-**Languages:** C · C++ · Python · JavaScript
-
-**Backend:** FastAPI · Node.js · Express · NestJS · GraphQL · Apache Kafka
-
-**Databases:** PostgreSQL · MongoDB · Neo4j · MySQL
-
-**Frontend:** React · GSAP
-
-**Infra & Tools:** Docker · Nginx · Linux · Git · Postman · Vercel · Netlify
+| | |
+|:--|:--|
+| **Languages** | Python · JavaScript · C · C++ |
+| **Backend** | FastAPI · Node.js · Express · NestJS · GraphQL · Kafka |
+| **Databases** | PostgreSQL · MongoDB · Neo4j · Redis · MySQL |
+| **Infra** | Docker · Nginx · Linux · Git · Vercel |
 
 ---
 
-## GitHub Activity
+## GitHub
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&icon_color=C084FC&title_color=38BDF8&text_color=E2E8F0" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0" width="48%" />
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayush-o1&theme=github_dark" width="95%" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&theme=tokyo-night&hide_border=true&area=true&color=38BDF8&line=C084FC&point=E2E8F0" width="95%" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com/?user=Ayush-o1&theme=dark&hide_border=true&ring=C084FC&fire=38BDF8&currStreakLabel=C084FC&sideLabels=38BDF8&dates=94A3B8&background=0D1117&stroke=C084FC" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&hide_border=true&bg_color=00000000&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&rank_icon=github" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&hide_border=true&bg_color=00000000&icon_color=0969da&title_color=0969da&text_color=1f2328&rank_icon=github" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&hide_border=true&rank_icon=github" width="48%" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Ayush-o1&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Ayush-o1&hide_border=true&background=00000000&ring=0969da&fire=0969da&currStreakLabel=0969da&sideLabels=1f2328&dates=57606a&currStreakNum=1f2328&sideNums=1f2328" />
+  <img src="https://streak-stats.demolab.com/?user=Ayush-o1&hide_border=true" width="48%" />
+</picture>
 
 </div>
 
 ---
 
-## Competitive Programming
-
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/tZbaWZwiWk?theme=dark&font=Nunito&ext=contest" />
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-tZbaWZwiWk-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/tZbaWZwiWk/)
-[![GFG](https://img.shields.io/badge/GeeksforGeeks-ayushhh0eo-2f8d46?style=flat-square&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/ayushhh0eo)
-[![HackerRank](https://img.shields.io/badge/HackerRank-ayushh__ofc10-2EC866?style=flat-square&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/ayushh_ofc10)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/tZbaWZwiWk/)
+[![GeeksforGeeks](https://img.shields.io/badge/GFG-2f8d46?style=flat&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/ayushhh0eo)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=flat&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/ayushh_ofc10)
 
 </div>
