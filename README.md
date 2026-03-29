@@ -27,7 +27,7 @@ I build backend systems with a hard bias toward correctness and developer experi
 
 ## Projects
 
-### [CortexGraph](https://github.com/aayush-1o/CortexGraph) — AI-driven knowledge graph platform
+### [CortexGraph](https://github.com/Ayush-o1/CortexGraph) — AI-driven knowledge graph platform
 
 NLP + Neo4j + interactive visualization for semantic exploration of unstructured data. Surfaces entity relationships that would otherwise require manual data archaeology across multiple sources.
 
@@ -37,7 +37,7 @@ Currently extending with a Kafka stream-processing layer for real-time graph upd
 
 ---
 
-### [Onboarder](https://github.com/aayush-1o/Onboarder) — Developer environment automation
+### [Onboarder](https://github.com/Ayush-o1/Onboarder) — Developer environment automation
 
 Paste a GitHub URL → get a fully configured, running Docker environment. Built to eliminate the "works on my machine" setup tax for new contributors.
 
@@ -45,7 +45,7 @@ Paste a GitHub URL → get a fully configured, running Docker environment. Built
 
 ---
 
-### [auto-Prompt](https://github.com/aayush-1o/auto-Prompt) — LLM evaluation framework
+### [auto-Prompt](https://github.com/Ayush-o1/auto-Prompt) — LLM evaluation framework
 
 Structures ad-hoc prompt testing into reproducible, comparable benchmark runs against Google Gemini. Turns one-off experiments into trackable iteration cycles.
 
@@ -53,7 +53,7 @@ Structures ad-hoc prompt testing into reproducible, comparable benchmark runs ag
 
 ---
 
-### [Truck](https://github.com/aayush-1o/truck) — Freight logistics dashboard
+### [Truck](https://github.com/Ayush-o1/truck) — Freight logistics dashboard
 
 Modular frontend UI with a focus on layout clarity and information density. Built to prove backend engineers can ship polished interfaces.
 
@@ -79,15 +79,15 @@ Modular frontend UI with a focus on layout clarity and information density. Buil
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aayush-1o&theme=github_dark" width="95%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ayush-o1&theme=github_dark" width="95%" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=aayush-1o&theme=tokyo-night&hide_border=true&area=true&color=38BDF8&line=C084FC&point=E2E8F0" width="95%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&theme=tokyo-night&hide_border=true&area=true&color=38BDF8&line=C084FC&point=E2E8F0" width="95%" />
 
 <br/>
 
-<img src="https://nirzak-streak-stats.vercel.app/?user=aayush-1o&theme=dark&hide_border=true&ring=C084FC&fire=38BDF8&currStreakLabel=C084FC&sideLabels=38BDF8&dates=94A3B8&background=0D1117&stroke=C084FC" />
+<img src="https://nirzak-streak-stats.vercel.app/?user=Ayush-o1&theme=dark&hide_border=true&ring=C084FC&fire=38BDF8&currStreakLabel=C084FC&sideLabels=38BDF8&dates=94A3B8&background=0D1117&stroke=C084FC" />
 
 </div>
 
