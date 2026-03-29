@@ -52,14 +52,9 @@ OpenAI-compatible gateway that cuts LLM API costs by up to 60% with **zero code 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&hide_border=true&bg_color=00000000&icon_color=58a6ff&title_color=58a6ff&text_color=c9d1d9&rank_icon=github" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&hide_border=true&bg_color=00000000&icon_color=0969da&title_color=0969da&text_color=1f2328&rank_icon=github" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&hide_border=true&rank_icon=github" width="48%" />
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Ayush-o1&hide_border=true&background=00000000&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Ayush-o1&hide_border=true&background=00000000&ring=0969da&fire=0969da&currStreakLabel=0969da&sideLabels=1f2328&dates=57606a&currStreakNum=1f2328&sideNums=1f2328" />
-  <img src="https://streak-stats.demolab.com/?user=Ayush-o1&hide_border=true" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=Ayush-o1&hide_border=true" />
 </picture>
 
 </div>
