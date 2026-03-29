@@ -130,5 +130,3 @@ Ships with a real-time analytics dashboard. 45+ commits. Fully containerized.
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=100&section=footer" width="100%" />
-cd /Users/ayush/Desktop/profile/Ayush-o1
-code README.md
