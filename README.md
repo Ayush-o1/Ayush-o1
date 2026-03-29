@@ -1,4 +1,3 @@
-# This clears the file and lets you paste directly — press Cmd+V, then Ctrl+D when done
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=180&section=header&text=Ayush%20Kumar&fontSize=42&fontColor=e6edf3&fontAlignY=35&desc=Backend%20Engineer%20%C2%B7%20API%20Design%20%C2%B7%20Developer%20Tooling&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" />
