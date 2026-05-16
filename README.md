@@ -7,9 +7,7 @@
 B.Tech CSE · Graduating 2027 · Bengaluru, India
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushh-o1/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat&logo=vercel&logoColor=white)](https://ayushkumarportfolio2026.vercel.app)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Ayush-o1)
 
 </div>
 
@@ -93,16 +91,6 @@ Developer onboarding automation — paste a GitHub URL, get a working Docker env
 - Studying distributed systems: consensus, replication, partitioning
 
 ---
-
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide=prs,issues&rank_icon=github" height="150" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="150" />
-
-</div>
 
 ---
 
