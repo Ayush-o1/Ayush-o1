@@ -2,12 +2,11 @@
 
 # Ayush Kumar
 
-Backend Engineering &nbsp;·&nbsp; AI Infrastructure &nbsp;·&nbsp; Software Engineering
+Backend-focused CS student building scalable APIs, AI infrastructure tools, and production-style backend systems.
 
-B.Tech CSE · Graduating 2027 · Bengaluru, India
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushh-o1/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushh-o1/)&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
 
 </div>
 
@@ -15,11 +14,11 @@ B.Tech CSE · Graduating 2027 · Bengaluru, India
 
 ## About
 
-B.Tech Computer Science student focused on backend engineering, AI infrastructure, and production-oriented software systems. I enjoy building scalable APIs, LLM tooling, role-based platforms, and developer-focused backend products.
+B.Tech Computer Science student graduating in 2027, based in Bengaluru, India. I focus on backend engineering, AI infrastructure, and practical software systems that solve real engineering problems.
 
-My work includes an OpenAI-compatible LLM proxy gateway, a logistics backend system, and a prompt evaluation engine — built with FastAPI, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and GitHub Actions.
+My work includes OpenAI-compatible LLM proxy gateways, logistics backend platforms, and prompt evaluation tools built with FastAPI, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and GitHub Actions.
 
-I care about clean architecture, reliability, and building things that hold up in real engineering conversations.
+I care about clean architecture, reliability, performance, and building projects that are strong enough to discuss in real technical interviews.
 
 ---
 
