@@ -1,119 +1,86 @@
-<div align="center">
-
-# Hey, I'm Ayush 👋
-
-**Backend Engineer · AI Infrastructure · Software Engineering**
-
-B.Tech CSE student · Graduating 2027 · Bengaluru, India
-
-<br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushh-o1)
-[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
-
-</div>
-
----
-
-### About Me
-
-I build backend systems and AI infrastructure — scalable APIs, LLM tooling, and role-based platforms. Focused on production-grade engineering: clean architecture, reliability, and systems strong enough to discuss in real technical interviews.
-
-- 🔭 Currently building **ContextForge** — an OpenAI-compatible LLM proxy gateway
-- 🌱 Learning Kubernetes, distributed systems, and LLM observability
-- 💬 Ask me about FastAPI, Node.js, Docker, system design, or backend architecture
-- 📫 Reach me at **ayushh.pvt10@gmail.com**
-
----
-
-### Languages & Tools
-
-<table>
-<tr>
-<td valign="top" width="55%">
-
-<img src="https://skillicons.dev/icons?i=python,js,cpp,bash&theme=dark" /><br><br>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb&theme=dark" /><br><br>
-<img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,postman&theme=dark" />
-
-</td>
-<td valign="top" width="45%">
-
-```text
-Backend          FastAPI · Node.js · Express.js
-Databases        PostgreSQL · MongoDB
-DevOps           Docker · GitHub Actions
-Languages        Python · JavaScript · C++
-CS Core          DSA · OOP · DBMS · OS · Networks
-```
-
-</td>
-</tr>
-</table>
-
----
-
-### Featured Projects
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-#### [ContextForge](https://github.com/Ayush-o1/contextforge)
-OpenAI-compatible LLM proxy gateway. Semantic caching, multi-provider routing, fallback/retry logic, and context compression — deployed on Railway with automated CI/CD.
-
-`FastAPI` `LiteLLM` `Docker` `Redis` `GitHub Actions`
-
-</td>
-<td valign="top" width="50%">
-
-#### [FreightFlow](https://github.com/Ayush-o1/FreightFlow)
-Role-based logistics backend with JWT authentication and RBAC across shipper, driver, and admin roles. Clean route/controller/model REST API architecture.
-
-`Node.js` `Express.js` `MongoDB` `JWT` `REST API`
-
-</td>
-</tr>
-<tr>
-<td valign="top" width="50%">
-
-#### [AutoPrompt](https://github.com/Ayush-o1/autoprompt)
-Prompt optimization and evaluation engine with YAML-driven versioning and automated scoring pipelines via GitHub Actions.
-
-`FastAPI` `Gemini API` `YAML` `Docker` `GitHub Actions`
-
-</td>
-<td valign="top" width="50%">
-
-#### [Onboarder](https://github.com/Ayush-o1/Onboarder)
-Paste a GitHub URL — get a working Docker environment in minutes. Eliminates manual setup for new contributors to any MERN project.
-
-`Node.js` `React` `MongoDB` `Docker` `Express.js`
-
-</td>
-</tr>
-</table>
-
----
-
-### GitHub Stats
-
-<details>
-<summary>📊 View Stats</summary>
-<br>
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide=prs,issues" height="150"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="150"/>
-
-</div>
-</details>
-
----
+# Namaste 👋
 
 <div align="center">
-
-`Open to Backend Engineering & SWE Internships · 2025–26`
-
+<img height="300" width="700" alt="GIF" align="center" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 </div>
+
+</br>
+</br>
+</br>
+
+
+# About Me 💬 :
+
+### - I'm a B.Tech CSE student from Bengaluru, India. I build backend systems, AI infrastructure tools, and production-grade software.
+
+<img height="400" width="500" alt="GIF" align="right" src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif">
+
+### - Learning :
+- ✨ Distributed Systems & Consensus Algorithms
+- ✨ Kubernetes & Cloud-Native Infrastructure
+- ✨ LLM Observability & Inference Optimization
+
+### - Currently Building :
+- ✨ **ContextForge** — OpenAI-compatible LLM proxy gateway
+- ✨ **AutoPrompt** — Prompt optimization & evaluation engine
+- ✨ **FreightFlow** — Role-based logistics backend platform
+
+</br>
+</br>
+</br>
+
+
+
+# Languages & Tools 👨‍💻 🛠 :
+</br>
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" alt="python" width="100" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="80" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="100" height="80">
+</br>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="120" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="120" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="120" height="80">
+</br>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="120" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original-wordmark.svg" alt="github" width="100" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original-wordmark.svg" alt="git" width="100" height="80">
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="80" height="80">
+
+</p>
+</br>
+</br>
+</br>
+
+
+
+# Contact Me :
+
+<p>
+ </br>
+
+
+If you want to reach out about backend systems, AI infrastructure, internship opportunities, or just want to talk tech — ping me 😉
+
+<a href="mailto:ayushh.pvt10@gmail.com">
+ <img align="left" alt="Gmail" width="130" height="100" src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/social/gmail.svg" />
+</a>
+<a href="https://linkedin.com/in/ayushh-o1">
+  <img align="left" alt="Linkedin" width="150" height="100" src="https://raw.githubusercontent.com/MikeCodesDotNET/ColoredBadges/master/svg/social/linkedin.svg" />
+</br>
+</br>
+</br>
+</a>
+
+
+
+<p align="center" >  
+  <a href="https://github.com/anuraghazra/github-readme-stats"> 
+<img  src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&&show_icons=true&theme=radical"/>
+  </a>
+  </p>
+
+*************
