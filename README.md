@@ -2,7 +2,7 @@
 
 # Ayush Kumar
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1000&color=6E88F7&center=true&vCenter=true&width=520&lines=Backend+Engineer;AI+Infrastructure+%7C+LLM+Systems;Building+production-grade+backend+systems)](https://git.io/typing-svg)
+Backend Engineering &nbsp;·&nbsp; AI Infrastructure &nbsp;·&nbsp; Software Engineering
 
 B.Tech CSE · Graduating 2027 · Bengaluru, India
 
@@ -15,9 +15,11 @@ B.Tech CSE · Graduating 2027 · Bengaluru, India
 
 ## About
 
-I build backend systems and AI infrastructure — focused on scalability, correctness, and clean architecture. My work spans LLM proxy gateways, role-based logistics backends, and prompt engineering tooling. I care about systems that work reliably in production, not just in demos.
+B.Tech Computer Science student focused on backend engineering, AI infrastructure, and production-oriented software systems. I enjoy building scalable APIs, LLM tooling, role-based platforms, and developer-focused backend products.
 
-Currently exploring distributed systems design, Kubernetes, and LLM observability.
+My work includes an OpenAI-compatible LLM proxy gateway, a logistics backend system, and a prompt evaluation engine — built with FastAPI, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and GitHub Actions.
+
+I care about clean architecture, reliability, and building things that hold up in real engineering conversations.
 
 ---
 
