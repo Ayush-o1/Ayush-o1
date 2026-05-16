@@ -1,81 +1,92 @@
 <div align="center">
 
-# Ayush Kumar
+# Hey, I'm Ayush 👋
 
-Backend-focused CS student building scalable APIs, AI infrastructure tools, and production-style backend systems.
+**Backend Engineer · AI Infrastructure · Software Engineering**
+
+B.Tech CSE student · Graduating 2027 · Bengaluru, India
 
 <br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushh-o1/)&nbsp;&nbsp;[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushh-o1)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
 
 </div>
 
 ---
 
-## About
+### About Me
 
-B.Tech Computer Science student graduating in 2027, based in Bengaluru, India. I focus on backend engineering, AI infrastructure, and practical software systems that solve real engineering problems.
+I build backend systems and AI infrastructure — scalable APIs, LLM tooling, and role-based platforms. Focused on production-grade engineering: clean architecture, reliability, and systems strong enough to discuss in real technical interviews.
 
-My work includes OpenAI-compatible LLM proxy gateways, logistics backend platforms, and prompt evaluation tools built with FastAPI, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and GitHub Actions.
-
-I care about clean architecture, reliability, performance, and building projects that are strong enough to discuss in real technical interviews.
-
----
-
-## Tech Stack
-
-<div align="center">
-
-**Languages**
-
-[![My Skills](https://skillicons.dev/icons?i=python,js,cpp,bash&theme=dark)](https://skillicons.dev)
-
-**Backend & Frameworks**
-
-[![My Skills](https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb&theme=dark)](https://skillicons.dev)
-
-**DevOps & Tooling**
-
-[![My Skills](https://skillicons.dev/icons?i=docker,githubactions,linux,git,vscode&theme=dark)](https://skillicons.dev)
-
-</div>
+- 🔭 Currently building **ContextForge** — an OpenAI-compatible LLM proxy gateway
+- 🌱 Learning Kubernetes, distributed systems, and LLM observability
+- 💬 Ask me about FastAPI, Node.js, Docker, system design, or backend architecture
+- 📫 Reach me at **ayushh.pvt10@gmail.com**
 
 ---
 
-## Featured Projects
+### Languages & Tools
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top" width="55%">
 
-### [ContextForge](https://github.com/Ayush-o1/contextforge)
-OpenAI-compatible LLM proxy gateway built with **FastAPI** and **LiteLLM**. Implements semantic caching, multi-provider routing, and context compression to reduce inference latency and cost.
-
-`FastAPI` `LiteLLM` `Docker` `Redis` `GitHub Actions` `Railway`
+<img src="https://skillicons.dev/icons?i=python,js,cpp,bash&theme=dark" /><br><br>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,postgres,mongodb&theme=dark" /><br><br>
+<img src="https://skillicons.dev/icons?i=docker,githubactions,git,linux,postman&theme=dark" />
 
 </td>
-<td width="50%" valign="top">
+<td valign="top" width="45%">
 
-### [FreightFlow](https://github.com/Ayush-o1/FreightFlow)
-Role-based logistics management backend with **JWT authentication**, **RBAC**, and structured REST API design across driver, admin, and dispatcher roles.
+```text
+Backend          FastAPI · Node.js · Express.js
+Databases        PostgreSQL · MongoDB
+DevOps           Docker · GitHub Actions
+Languages        Python · JavaScript · C++
+CS Core          DSA · OOP · DBMS · OS · Networks
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+### Featured Projects
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+#### [ContextForge](https://github.com/Ayush-o1/contextforge)
+OpenAI-compatible LLM proxy gateway. Semantic caching, multi-provider routing, fallback/retry logic, and context compression — deployed on Railway with automated CI/CD.
+
+`FastAPI` `LiteLLM` `Docker` `Redis` `GitHub Actions`
+
+</td>
+<td valign="top" width="50%">
+
+#### [FreightFlow](https://github.com/Ayush-o1/FreightFlow)
+Role-based logistics backend with JWT authentication and RBAC across shipper, driver, and admin roles. Clean route/controller/model REST API architecture.
 
 `Node.js` `Express.js` `MongoDB` `JWT` `REST API`
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-### [AutoPrompt](https://github.com/Ayush-o1/autoprompt)
-Prompt optimization and evaluation engine using **Gemini API** and **FastAPI**. YAML-driven prompt versioning with automated evaluation pipelines via GitHub Actions.
+#### [AutoPrompt](https://github.com/Ayush-o1/autoprompt)
+Prompt optimization and evaluation engine with YAML-driven versioning and automated scoring pipelines via GitHub Actions.
 
 `FastAPI` `Gemini API` `YAML` `Docker` `GitHub Actions`
 
 </td>
-<td width="50%" valign="top">
+<td valign="top" width="50%">
 
-### [Onboarder](https://github.com/Ayush-o1/Onboarder)
-Developer onboarding automation — paste a GitHub URL, get a working Docker environment in minutes. Eliminates manual environment setup for new contributors.
+#### [Onboarder](https://github.com/Ayush-o1/Onboarder)
+Paste a GitHub URL — get a working Docker environment in minutes. Eliminates manual setup for new contributors to any MERN project.
 
 `Node.js` `React` `MongoDB` `Docker` `Express.js`
 
@@ -85,18 +96,24 @@ Developer onboarding automation — paste a GitHub URL, get a working Docker env
 
 ---
 
-## Currently Building
+### GitHub Stats
 
-- Deeper work on **ContextForge** — request tracing, cost dashboards, streaming support
-- Learning **Kubernetes** and cloud-native infrastructure patterns
-- Studying distributed systems: consensus, replication, partitioning
+<details>
+<summary>📊 View Stats</summary>
+<br>
+<div align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide=prs,issues" height="150"/>
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&langs_count=6" height="150"/>
+
+</div>
+</details>
 
 ---
 
 <div align="center">
 
-`Backend Engineering` · `AI Infrastructure` · `Open to SWE Internships 2025–26`
+`Open to Backend Engineering & SWE Internships · 2025–26`
 
 </div>
