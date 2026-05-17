@@ -1,142 +1,191 @@
 <div align="center">
 
-# Ayush Kumar
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&text=AYUSH%20KUMAR&fontSize=72&color=0:0d1117,100:0d1117&fontColor=00fff0&stroke=00fff0&strokeWidth=2&animation=twinkling&desc=Backend%20·%20AI%20Infrastructure%20·%20Distributed%20Systems&descSize=17&descAlignY=80&descAlign=50&descFontColor=aaaaaa" width="100%"/>
 
-**Backend Engineer · AI Infrastructure · Systems**
+<br>
 
-B.Tech Computer Science · Bengaluru, India · Graduating 2027
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=00FFF0&center=true&vCenter=true&repeat=true&width=650&lines=Initializing+systems...;%5B+OK+%5D+FastAPI+%7C+Node.js+%7C+Docker+loaded;%5B+OK+%5D+PostgreSQL+%7C+MongoDB+%7C+Redis+online;%5B+OK+%5D+LLM+gateway+routing+active;%5B+OK+%5D+Open+to+SWE+internships+2025-26;All+systems+operational.+%E2%9C%93" alt="Typing SVG"/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushh-o1)&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayush-o1)&nbsp;
-![Open to Internships](https://img.shields.io/badge/Open%20to-SWE%20Internships-22c55e?style=flat-square)
+<br><br>
 
-</div>
-
----
-
-## About
-
-Backend-focused CS student building production-grade systems at the intersection of **API infrastructure**, **AI tooling**, and **distributed systems**.
-
-I build things that are designed to hold up in real technical conversations — clean architecture, reliable deployments, and systems that solve actual engineering problems. My current focus is LLM proxy infrastructure, multi-provider routing, and backend platforms with structured auth and RBAC.
-
----
-
-## Tech Stack
-
-<div align="center">
-
-**Languages**
-
-[![Python](https://skillicons.dev/icons?i=python)](https://www.python.org)&nbsp;
-[![JavaScript](https://skillicons.dev/icons?i=js)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)&nbsp;
-[![C++](https://skillicons.dev/icons?i=cpp)](https://isocpp.org)
-
-**Backend & Frameworks**
-
-[![FastAPI](https://skillicons.dev/icons?i=fastapi)](https://fastapi.tiangolo.com)&nbsp;
-[![Node.js](https://skillicons.dev/icons?i=nodejs)](https://nodejs.org)&nbsp;
-[![Express](https://skillicons.dev/icons?i=express)](https://expressjs.com)
-
-**Databases**
-
-[![PostgreSQL](https://skillicons.dev/icons?i=postgres)](https://www.postgresql.org)&nbsp;
-[![MongoDB](https://skillicons.dev/icons?i=mongodb)](https://www.mongodb.com)&nbsp;
-[![Redis](https://skillicons.dev/icons?i=redis)](https://redis.io)
-
-**Infrastructure & DevOps**
-
-[![Docker](https://skillicons.dev/icons?i=docker)](https://www.docker.com)&nbsp;
-[![GitHub Actions](https://skillicons.dev/icons?i=githubactions)](https://github.com/features/actions)&nbsp;
-[![Linux](https://skillicons.dev/icons?i=linux)](https://www.linux.org)&nbsp;
-[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-%2300fff0.svg?style=for-the-badge&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)&nbsp;
+[![Email](https://img.shields.io/badge/EMAIL-%23ff006e.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)&nbsp;
+[![GitHub](https://img.shields.io/badge/GITHUB-%230d1117.svg?style=for-the-badge&logo=github&logoColor=00fff0)](https://github.com/Ayush-o1)&nbsp;
+[![Views](https://komarev.com/ghpvc/?username=Ayush-o1&style=for-the-badge&color=00fff0&label=PROFILE+VIEWS)](https://github.com/Ayush-o1)
 
 </div>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2&section=header&stroke=00fff0&strokeWidth=1" width="100%"/>
 
-## Featured Projects
+<br>
 
-<table>
+```
+╔══════════════════════════════════════════════════════════════════╗
+║  NODE        : Ayush Kumar                                       ║
+║  LOCATION    : Bengaluru, India                                  ║
+║  DEGREE      : B.Tech Computer Science (2027)                    ║
+║  FOCUS       : Backend · AI Infra · Distributed Systems          ║
+║  STATUS      : [ ● ONLINE ] Seeking SWE Internships 2025–26      ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+> *I build backend systems and LLM infrastructure that are designed to hold up in production — observable behavior, clean contracts, and no magic in the critical path.*
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2&stroke=00fff0&strokeWidth=1" width="100%"/>
+
+## ⬡ &nbsp;ACTIVE SYSTEMS
+
+<br>
+
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### [ContextForge](https://github.com/Ayush-o1/contextforge)
+<img src="https://img.shields.io/badge/SYS__001-CONTEXTFORGE-00fff0?style=for-the-badge&labelColor=0d1117&logo=fastapi&logoColor=00fff0"/>
 
-OpenAI-compatible LLM proxy gateway with **semantic caching**, **multi-provider routing**, and **fallback/retry logic**. Context compression cuts token usage significantly. Deployed on Railway with full CI/CD pipeline.
+**[→ github.com/Ayush-o1/contextforge](https://github.com/Ayush-o1/contextforge)**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+OpenAI-compatible **LLM proxy gateway**. Sits between any application and any LLM provider. Semantic caching eliminates redundant API calls. Multi-provider routing with configurable fallback/retry. Context compression cuts token overhead pre-request. Deployed to Railway via automated CI/CD.
+
+`FastAPI` `Redis` `Docker` `Railway` `GitHub Actions`
 
 </td>
 <td width="50%" valign="top">
 
-### [FreightFlow](https://github.com/Ayush-o1/FreightFlow)
+<img src="https://img.shields.io/badge/SYS__002-FREIGHTFLOW-ff006e?style=for-the-badge&labelColor=0d1117&logo=node.js&logoColor=ff006e"/>
 
-Role-based logistics backend with **JWT authentication** and **RBAC** across shipper, driver, and admin roles. Clean REST API with structured route/controller/model separation.
+**[→ github.com/Ayush-o1/FreightFlow](https://github.com/Ayush-o1/FreightFlow)**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+Role-based **logistics backend platform** with JWT auth and RBAC across shipper, driver, and admin roles. Permission boundaries enforced at every endpoint. Structured route/controller/model architecture. Production-grade auth patterns throughout.
+
+`Node.js` `Express` `MongoDB` `JWT`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [AutoPrompt](https://github.com/Ayush-o1/autoprompt)
+<img src="https://img.shields.io/badge/SYS__003-AUTOPROMPT-7928ca?style=for-the-badge&labelColor=0d1117&logo=googlegemini&logoColor=7928ca"/>
 
-Prompt optimization and evaluation engine with **YAML-driven template versioning** and automated scoring pipelines. Integrates Gemini API with reproducible evaluation workflows and GitHub Actions automation.
+**[→ github.com/Ayush-o1/autoprompt](https://github.com/Ayush-o1/autoprompt)**
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+**Prompt evaluation engine** that treats prompt engineering as software. YAML-driven versioning. Automated scoring pipelines. GitHub Actions runs evals on every commit. Integrates Gemini API with fully reproducible workflows.
+
+`FastAPI` `Docker` `GitHub Actions` `Gemini`
 
 </td>
 <td width="50%" valign="top">
 
-### [Onboarder](https://github.com/Ayush-o1/Onboarder)
+<img src="https://img.shields.io/badge/SYS__004-ONBOARDER-00a8ff?style=for-the-badge&labelColor=0d1117&logo=docker&logoColor=00a8ff"/>
 
-Paste a GitHub URL — get a working Docker environment in minutes. Eliminates manual contributor onboarding for MERN stack projects.
+**[→ github.com/Ayush-o1/Onboarder](https://github.com/Ayush-o1/Onboarder)**
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+**Developer environment automation**. Paste a GitHub URL → working Docker environment in minutes. Eliminates manual contributor onboarding for MERN stack projects. Turns a 15-step guide into a single command.
+
+`Node.js` `React` `Docker`
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-## What I'm Working On
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2&stroke=00fff0&strokeWidth=1" width="100%"/>
 
-- **ContextForge** — request tracing, streaming support, cost dashboards
-- **Cloud-native infra** — Kubernetes, service mesh, container orchestration
-- **Distributed systems** — consensus algorithms, replication, fault tolerance
+## ⬡ &nbsp;TECH MATRIX
 
----
-
-## GitHub Stats
+<br>
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide=issues&rank_icon=github" />
-&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
+| LAYER | TECHNOLOGIES |
+|:---:|:---:|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=00fff0) ![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=00fff0) ![C++](https://img.shields.io/badge/C++-0d1117?style=flat-square&logo=cplusplus&logoColor=00fff0) |
+| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=00fff0) ![Node.js](https://img.shields.io/badge/Node.js-0d1117?style=flat-square&logo=node.js&logoColor=00fff0) ![Express](https://img.shields.io/badge/Express-0d1117?style=flat-square&logo=express&logoColor=00fff0) |
+| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=00fff0) ![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=00fff0) ![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=00fff0) |
+| **Infra** | ![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=00fff0) ![GitHub Actions](https://img.shields.io/badge/GH_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=00fff0) ![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=00fff0) |
+| **Acquiring** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-0d1117?style=flat-square&logo=kubernetes&logoColor=7928ca) ![Distributed_Systems](https://img.shields.io/badge/Distributed_Systems-0d1117?style=flat-square&logo=apachekafka&logoColor=7928ca) |
 
 </div>
 
----
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2&stroke=00fff0&strokeWidth=1" width="100%"/>
+
+## ⬡ &nbsp;SYSTEM METRICS
+
+<br>
 
 <div align="center">
 
-**Let's connect** — I'm actively looking for SWE internship opportunities in backend, AI/ML infrastructure, or systems roles.
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=00fff0&icon_color=00fff0&text_color=aaaaaa&bg_color=0d1117&rank_icon=github&hide=issues" />&nbsp;&nbsp;
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&title_color=00fff0&text_color=aaaaaa&bg_color=0d1117&langs_count=6" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushh-o1)&nbsp;
-[![Email](https://img.shields.io/badge/ayushh.pvt10@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
+<br><br>
+
+<img src="https://streak-stats.demolab.com/?user=Ayush-o1&theme=github-dark-blue&hide_border=true&stroke=00fff0&ring=00fff0&fire=ff006e&currStreakLabel=00fff0&sideLabels=aaaaaa&background=0d1117" />
+
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2&stroke=00fff0&strokeWidth=1" width="100%"/>
+
+## ⬡ &nbsp;CONTRIBUTION GRAPH
+
+<br>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&bg_color=0d1117&color=00fff0&line=00fff0&point=ff006e&area=true&area_color=00fff0&hide_border=true&custom_title=Contribution+Activity" width="100%"/>
+
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2&stroke=00fff0&strokeWidth=1" width="100%"/>
+
+## ⬡ &nbsp;CURRENT DEPLOYMENT
+
+<br>
+
+```bash
+# ContextForge — next iteration
+$ git checkout -b feature/request-tracing
+$ git checkout -b feature/streaming-support  
+$ git checkout -b feature/cost-dashboards
+
+# Acquiring new capabilities
+$ sudo apt-get install kubernetes-fundamentals
+$ sudo apt-get install distributed-consensus     # Raft, Paxos
+$ sudo apt-get install fault-tolerant-replication
+```
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:0d1117&height=2&stroke=00fff0&strokeWidth=1" width="100%"/>
+
+## ⬡ &nbsp;ACHIEVEMENTS
+
+<br>
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Ayush-o1&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=6" />
+
+</div>
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&height=80&color=0:0d1117,100:0d1117&stroke=00fff0&strokeWidth=1&section=footer&animation=twinkling&reversal=true" width="100%"/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=2000&pause=800&color=00FFF0&center=true&vCenter=true&repeat=true&width=500&lines=Open+to+backend+%7C+infra+%7C+AI%2FML+engineering+internships;Reach+out+%E2%80%94+I+respond+fast.;Let%27s+build+something+real." alt="footer typing"/>
+
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-%2300fff0.svg?style=for-the-badge&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)&nbsp;
+[![Email](https://img.shields.io/badge/EMAIL-%23ff006e.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
 
 </div>
