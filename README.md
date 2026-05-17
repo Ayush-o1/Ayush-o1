@@ -1,87 +1,148 @@
-# Hey there 👋
-
 <div align="center">
-<img height="300" width="700" alt="GIF" align="center" src="https://github.com/Ayush-o1/Ayush-o1/blob/main/assets/208593.gif">
+
+# Ayush Kumar
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=2&section=header" width="100%"/>
+
+Backend-focused CS student building scalable APIs, AI infrastructure tools, and production-grade backend systems.
+
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushh-o1)&nbsp;&nbsp;
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
+
 </div>
 
-</br>
-</br>
-</br>
+<br>
 
+---
 
-# About Me 💬 :
+### About Me
 
-### - I'm a B.Tech CSE student from Bengaluru, India. I build backend systems, AI infrastructure, and production-grade software.
+B.Tech Computer Science student graduating in 2027, based in Bengaluru, India. I focus on backend engineering, AI infrastructure, and practical software systems that solve real engineering problems.
 
-<img height="400" width="500" alt="GIF" align="right" src="https://github.com/Ayush-o1/Ayush-o1/blob/main/assets/1936.gif">
+My work includes OpenAI-compatible LLM proxy gateways, logistics backend platforms, and prompt evaluation tools built with FastAPI, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and GitHub Actions.
 
-### - Learning :
-- ✨ Distributed Systems & Consensus Algorithms
-- ✨ Kubernetes & Cloud-Native Infrastructure
-- ✨ LLM Observability & Inference Optimization
+I care about clean architecture, reliability, performance, and building projects that are strong enough to discuss in real technical interviews.
 
-### - Currently Building :
-- ✨ ContextForge — OpenAI-compatible LLM proxy gateway
-- ✨ AutoPrompt — Prompt optimization & evaluation engine
-- ✨ FreightFlow — Role-based logistics backend platform
+---
 
-</br>
-</br>
-</br>
+### Tech Stack
 
+<div align="center">
 
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=python&theme=dark" width="40"/><br>Python
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=js&theme=dark" width="40"/><br>JavaScript
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="40"/><br>C++
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="40"/><br>FastAPI
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="40"/><br>Node.js
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=express&theme=dark" width="40"/><br>Express
+</td>
+</tr>
+<tr>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="40"/><br>PostgreSQL
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="40"/><br>MongoDB
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=docker&theme=dark" width="40"/><br>Docker
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="40"/><br>GH Actions
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=git&theme=dark" width="40"/><br>Git
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=linux&theme=dark" width="40"/><br>Linux
+</td>
+</tr>
+</table>
 
-# Languages & Tools 👨‍💻 🛠 :
-</br>
+</div>
 
-<p align="center">
+---
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" alt="python" width="70" height="70">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" width="60" height="60">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="60" height="60">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="sql" width="60" height="60">
-</br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg" alt="fastapi" width="70" height="70">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="70" height="70">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="express" width="60" height="60">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="70" height="70">
-</br>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="docker" width="70" height="70">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" alt="github" width="70" height="70">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg" alt="git" width="70" height="70">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="60" height="60">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original-wordmark.svg" alt="postman" width="70" height="70">
+### Featured Projects
 
-</p>
-</br>
-</br>
-</br>
+<table>
+<tr>
+<td width="50%" valign="top">
 
+#### [ContextForge](https://github.com/Ayush-o1/contextforge)
 
+OpenAI-compatible LLM proxy gateway with **semantic caching**, **multi-provider routing**, and **fallback/retry logic**. Context compression reduces token usage and cost. Deployed on Railway with automated CI/CD.
 
-# Contact Me :
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
 
-<p>
- </br>
+</td>
+<td width="50%" valign="top">
 
-If you want to reach out about backend systems, AI infrastructure, internship opportunities, or just want to talk tech — ping me 😉
+#### [FreightFlow](https://github.com/Ayush-o1/FreightFlow)
 
-<a href="mailto:ayushh.pvt10@gmail.com">
- <img align="left" alt="Gmail" width="130" height="100" src="https://github.com/Ayush-o1/Ayush-o1/blob/main/assets/icons/gmail.png" />
-</a>
-<a href="https://linkedin.com/in/ayushh-o1">
-  <img align="left" alt="Linkedin" width="150" height="100" src="https://github.com/Ayush-o1/Ayush-o1/blob/main/assets/icons/linkedin.png" />
-</br>
-</br>
-</br>
-</a>
+Role-based logistics backend with **JWT authentication** and **RBAC** across shipper, driver, and admin workflows. Structured route/controller/model REST API architecture.
 
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center" >  
-  <a href="https://github.com/anuraghazra/github-readme-stats"> 
-<img src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&&show_icons=true&theme=radical"/>
-  </a>
-  </p>
+#### [AutoPrompt](https://github.com/Ayush-o1/autoprompt)
 
-*************
+Prompt optimization and evaluation engine with **YAML-driven template versioning** and automated scoring pipelines. Integrates Gemini API with reproducible evaluation workflows.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GHA](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+#### [Onboarder](https://github.com/Ayush-o1/Onboarder)
+
+Paste a GitHub URL — get a working Docker environment in minutes. Eliminates manual setup for new contributors to any MERN project.
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+---
+
+### Currently Building
+
+- ContextForge: request tracing, streaming support, and cost dashboards
+- Kubernetes and cloud-native infrastructure
+- Distributed systems: consensus, replication, and fault tolerance
+
+---
+
+<div align="center">
+
+`B.Tech CSE · Bengaluru, India · Open to SWE Internships 2025–26`
+
+</div>
