@@ -104,6 +104,10 @@ Paste a GitHub URL → working Docker environment in minutes. Reduces a 15-step 
     <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark"/></td>
   </tr>
   <tr>
+    <td align="right" valign="middle"><sub><b>Frontend</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=html,css,react&theme=dark"/></td>
+  </tr>
+  <tr>
     <td align="right" valign="middle"><sub><b>Infra</b></sub></td>
     <td><img src="https://skillicons.dev/icons?i=docker,githubactions,linux&theme=dark"/></td>
   </tr>
