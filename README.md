@@ -90,31 +90,95 @@ Paste a GitHub URL → working Docker environment in minutes. Reduces a 15-step 
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="right" valign="middle" width="110"><sub><b>Languages</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=python,js,cpp&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><sub><b>Backend</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><sub><b>Databases</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><sub><b>Frontend</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=html,css,react&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><sub><b>Infra</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,githubactions,linux&theme=dark"/></td>
-  </tr>
-  <tr>
-    <td align="right" valign="middle"><sub><b>Learning</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=kubernetes,kafka&theme=dark"/></td>
-  </tr>
+<!-- ROW 1: Languages + Backend -->
+<table width="92%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="48%" align="center" valign="top">
+
+<sub><b>— &nbsp; LANGUAGES &nbsp; —</b></sub>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=python,js,ts,cpp&theme=dark&perline=4" />
+
+<br><br>
+
+</td>
+<td width="4%"></td>
+<td width="48%" align="center" valign="top">
+
+<sub><b>— &nbsp; BACKEND &nbsp; —</b></sub>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,nginx&theme=dark&perline=4" />
+
+<br><br>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ROW 2: Databases + Infrastructure -->
+<table width="92%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="48%" align="center" valign="top">
+
+<sub><b>— &nbsp; DATABASES &nbsp; —</b></sub>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite&theme=dark&perline=4" />
+
+<br><br>
+
+</td>
+<td width="4%"></td>
+<td width="48%" align="center" valign="top">
+
+<sub><b>— &nbsp; INFRASTRUCTURE &nbsp; —</b></sub>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,linux&theme=dark&perline=4" />
+
+<br><br>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ROW 3: Frontend + Learning -->
+<table width="92%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="48%" align="center" valign="top">
+
+<sub><b>— &nbsp; FRONTEND &nbsp; —</b></sub>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=react,html,css,vite&theme=dark&perline=4" />
+
+<br><br>
+
+</td>
+<td width="4%"></td>
+<td width="48%" align="center" valign="top">
+
+<sub><b>— &nbsp; LEARNING &nbsp; —</b></sub>
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=kafka,kubernetes,grafana,prometheus&theme=dark&perline=4" />
+
+<br><br>
+
+</td>
+</tr>
 </table>
 
 </div>
@@ -123,28 +187,17 @@ Paste a GitHub URL → working Docker environment in minutes. Reduces a 15-step 
 
 ---
 
-## ⬡ &nbsp;STATS
+## ⬡ &nbsp;STATS &amp; ACTIVITY
 
 <br>
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Ayush-o1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&bg_color=0d1117&rank_icon=github&hide=issues"/>&nbsp;&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayush-o1&layout=compact&theme=github_dark&hide_border=true&title_color=58a6ff&text_color=8b949e&bg_color=0d1117&langs_count=6"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-o1&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=1f2937&ring=58a6ff&fire=f0883e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3" width="72%" />
 
-</div>
+<br><br>
 
-<br>
-
----
-
-## ⬡ &nbsp;ACTIVITY
-
-<br>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f0883e&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution+Activity" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f0883e&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution+Activity" width="92%"/>
 
 </div>
 
