@@ -90,13 +90,28 @@ Paste a GitHub URL → working Docker environment in minutes. Reduces a 15-step 
 
 <div align="center">
 
-| Layer | Technologies |
-|:---|:---|
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
-| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-555555?style=flat-square&logo=express&logoColor=white) |
-| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
-| **Infra** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GH%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) |
-| **Learning** | ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white) |
+<table>
+  <tr>
+    <td align="right" valign="middle" width="110"><sub><b>Languages</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=python,js,cpp&theme=dark"/></td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><sub><b>Backend</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=fastapi,nodejs,express&theme=dark"/></td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><sub><b>Databases</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark"/></td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><sub><b>Infra</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,githubactions,linux&theme=dark"/></td>
+  </tr>
+  <tr>
+    <td align="right" valign="middle"><sub><b>Learning</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=kubernetes,kafka&theme=dark"/></td>
+  </tr>
+</table>
 
 </div>
 
