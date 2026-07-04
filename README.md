@@ -1,185 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=shark&height=180&text=AYUSH%20KUMAR&fontSize=65&color=0:0d1117,50:0f172a,100:0d1117&fontColor=58a6ff&animation=fadeIn&desc=Backend%20Engineer%20%C2%B7%20AI%20Infrastructure%20%C2%B7%20Distributed%20Systems&descSize=15&descAlignY=78&descAlign=50&descFontColor=8b949e" width="100%"/>
+# Ayush Kumar
+
+### Backend systems designed around the failure case, not the happy path.
+
+B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-e6edf3?style=flat-square&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)
+[![Email](https://img.shields.io/badge/Email-e6edf3?style=flat-square&logo=gmail&logoColor=0d1117)](mailto:ayushh.pvt10@gmail.com)
+[![GitHub](https://img.shields.io/badge/Ayush--o1-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3000&pause=1200&color=58A6FF&center=true&vCenter=true&repeat=true&width=580&lines=Building+infrastructure+for+systems+that+think.;FastAPI+%C2%B7+Node.js+%C2%B7+Docker+%C2%B7+Redis+%C2%B7+PostgreSQL;LLM+gateways+%C2%B7+logistics+backends+%C2%B7+dev+tooling;B.Tech+CSE+%C2%B7+Bengaluru+%C2%B7+Graduating+2027;Open+to+SWE+internships+2025%E2%80%9326." alt="Typing SVG"/>
-
-<br><br>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushh-o1)&nbsp;&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)&nbsp;&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
-
-</div>
-
----
+**3** Production Systems&nbsp;&nbsp;·&nbsp;&nbsp;**200+** DSA Problems Solved&nbsp;&nbsp;·&nbsp;&nbsp;**SIH Internal** • 3rd Place
 
 <br>
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  Ayush Kumar         ·  B.Tech Computer Science, 2027           ║
-║  Bengaluru, India    ·  Backend · AI Infrastructure · Systems   ║
-║  Status  ●  Open to SWE Internships 2025–26                     ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-> *I build backend systems and LLM infrastructure designed to hold up in production —*
-> *observable behavior, clean contracts, no magic in the critical path.*
-
-<br>
-
----
-
-## ⬡ &nbsp;PROJECTS
-
-<br>
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**[ContextForge](https://github.com/Ayush-o1/contextforge)** &nbsp;·&nbsp; LLM Infrastructure
-
-OpenAI-compatible proxy gateway. Semantic caching, multi-provider routing with fallback, context compression pre-request. Deployed to Railway via automated CI/CD.
-
-`FastAPI` `Redis` `Docker` `Railway` `GitHub Actions`
-
-</td>
-<td width="50%" valign="top">
-
-**[FreightFlow](https://github.com/Ayush-o1/FreightFlow)** &nbsp;·&nbsp; Logistics Backend
-
-Role-based platform with JWT auth and RBAC across shipper, driver, and admin roles. Permission boundaries enforced at every endpoint. Production-grade architecture throughout.
-
-`Node.js` `Express` `MongoDB` `JWT`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[AutoPrompt](https://github.com/Ayush-o1/autoprompt)** &nbsp;·&nbsp; Prompt Engineering Engine
-
-Treats prompt engineering as software. YAML-driven versioning, automated scoring pipelines, CI/CD eval runs on every commit via Gemini API.
-
-`FastAPI` `Docker` `GitHub Actions` `Gemini`
-
-</td>
-<td width="50%" valign="top">
-
-**[Onboarder](https://github.com/Ayush-o1/Onboarder)** &nbsp;·&nbsp; Dev Environment Automation
-
-Paste a GitHub URL → working Docker environment in minutes. Reduces a 15-step MERN stack setup to a single command.
-
-`Node.js` `React` `Docker`
-
-</td>
-</tr>
-</table>
-
-<br>
-
----
-
-## ⬡ &nbsp;STACK
-
-<br>
-
-<div align="center">
-
-<!-- ROW 1: Languages + Backend -->
-<table width="92%" cellspacing="0" cellpadding="0">
-<tr>
-<td width="48%" align="center" valign="top">
-
-<sub><b>— &nbsp; LANGUAGES &nbsp; —</b></sub>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=python,js,ts,cpp&theme=dark&perline=4" />
-
-<br><br>
-
-</td>
-<td width="4%"></td>
-<td width="48%" align="center" valign="top">
-
-<sub><b>— &nbsp; BACKEND &nbsp; —</b></sub>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,nginx&theme=dark&perline=4" />
-
-<br><br>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<!-- ROW 2: Databases + Infrastructure -->
-<table width="92%" cellspacing="0" cellpadding="0">
-<tr>
-<td width="48%" align="center" valign="top">
-
-<sub><b>— &nbsp; DATABASES &nbsp; —</b></sub>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite&theme=dark&perline=4" />
-
-<br><br>
-
-</td>
-<td width="4%"></td>
-<td width="48%" align="center" valign="top">
-
-<sub><b>— &nbsp; INFRASTRUCTURE &nbsp; —</b></sub>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,githubactions,linux&theme=dark&perline=4" />
-
-<br><br>
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<!-- ROW 3: Frontend + Learning -->
-<table width="92%" cellspacing="0" cellpadding="0">
-<tr>
-<td width="48%" align="center" valign="top">
-
-<sub><b>— &nbsp; FRONTEND &nbsp; —</b></sub>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=react,html,css,vite&theme=dark&perline=4" />
-
-<br><br>
-
-</td>
-<td width="4%"></td>
-<td width="48%" align="center" valign="top">
-
-<sub><b>— &nbsp; LEARNING &nbsp; —</b></sub>
-
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=kafka,kubernetes,grafana,prometheus&theme=dark&perline=4" />
-
-<br><br>
-
-</td>
-</tr>
-</table>
+[`BlackWater`](#blackwater) &nbsp;·&nbsp; [`StarGate`](#stargate) &nbsp;·&nbsp; [`FreightFlow`](#freightflow)
 
 </div>
 
@@ -187,17 +24,141 @@ Paste a GitHub URL → working Docker environment in minutes. Reduces a 15-step 
 
 ---
 
-## ⬡ &nbsp;STATS &amp; ACTIVITY
+<br>
+
+<div align="center">
+
+## Featured Projects
+
+</div>
 
 <br>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ayush-o1&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=1f2937&ring=58a6ff&fire=f0883e&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e&currStreakNum=e6edf3&sideNums=e6edf3" width="72%" />
+![](https://img.shields.io/badge/-STATUS_PAGE_PLATFORM-f85149?style=flat-square)
+
+### [BlackWater](https://github.com/Ayush-o1/BlackWater)
+
+**When something breaks, someone declares it — and the public status page updates itself. No cron job. No manual toggle.**
+
+<img src="https://github.com/Ayush-o1/BlackWater/raw/main/screenshots/02_dashboard.png" width="100%" />
+
+</div>
+
+- Incident lifecycle is a strict, forward-only state machine — closed incidents are immutable at the database layer
+- Service health is derived automatically from active incidents; nobody flips a status by hand
+- Public API strips internal fields via DTO isolation before anything leaves the server
+
+`TypeScript` `Node.js` `Express` `PostgreSQL` `Prisma` `Socket.IO` `React`
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+![](https://img.shields.io/badge/-WORKFLOW_AUTOMATION_ENGINE-a371f7?style=flat-square)
+
+### [StarGate](https://github.com/Ayush-o1/StarGate)
+
+**Wire HTTP calls and conditionals into a visual graph, hit run — a worker fleet executes it in dependency order, retries included.**
+
+<img src="https://github.com/Ayush-o1/StarGate/raw/main/docs/screenshots/workflow-canvas.png" width="100%" />
+
+</div>
+
+- Kahn's algorithm topologically sorts the DAG before a single node runs; cycles are rejected before enqueue
+- Every outbound call passes a DNS-resolve + CIDR SSRF guard first — all RFC 1918 ranges blocked
+- The API responds in milliseconds; BullMQ retries failed nodes with exponential backoff, decoupled from execution time
+
+`TypeScript` `Node.js` `BullMQ` `Redis` `PostgreSQL` `React Flow` `Docker`
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+![](https://img.shields.io/badge/-LOGISTICS_SAAS_BACKEND-3fb950?style=flat-square)
+
+### [FreightFlow](https://github.com/Ayush-o1/FreightFlow)
+
+**Shippers request, drivers deliver, admins watch it update live — with idempotency keys standing between a slow network and a duplicate charge.**
+
+<img src="https://github.com/Ayush-o1/FreightFlow/raw/main/docs/screenshots/login.png" width="100%" />
+
+</div>
+
+- Shipment status is forward-only and enforced server-side — the client is never trusted with state transitions
+- Every critical mutation requires an idempotency key; the outbox pattern durably logs state before async work runs
+- Full cloud-native footprint — Kubernetes, Terraform, Prometheus + Grafana, with documented disaster-recovery runbooks
+
+`Node.js` `Express` `MongoDB` `Redis` `Socket.IO` `Kubernetes` `Terraform`
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## Other Projects
+
+</div>
+
+<br>
+
+**[CareIQ](https://github.com/Ayush-o1/cura-readmission-prediction)** — Predicts which patients are likely to be readmitted within 30 days of discharge, and explains why with SHAP instead of a black-box score. XGBoost scoring 0.84 AUROC on a star-schema warehouse, Airflow-orchestrated ETL.
+`Python` `FastAPI` `XGBoost` `Airflow` `PostgreSQL`
+
+**[AutoPrompt](https://github.com/Ayush-o1/auto-Prompt)** — Treats prompt engineering as a versioned software artifact: YAML-driven prompts with automated scoring on every commit.
+
+**[SwitchBoard](https://github.com/Ayush-o1/switchboard)** — Self-hosted LLM gateway that routes across OpenAI, Anthropic, Gemini, and HuggingFace with automatic failover, serving repeated prompts from a two-pass semantic cache in milliseconds at zero cost.
+`Python` `FastAPI` `PostgreSQL` `pgvector` `Docker`
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+## Tech Stack
+
+<br>
+
+**Languages**
+<img src="https://skillicons.dev/icons?i=ts,js,python,cpp" />
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f0883e&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution+Activity" width="92%"/>
+**Backend & Data**
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,redis" />
+
+<br><br>
+
+**Frontend**
+<img src="https://skillicons.dev/icons?i=react,tailwind" />
+
+<br><br>
+
+**Infrastructure**
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions,git" />
+
+<br><br>
+
+**Core CS**
+
+🧩 **Data Structures & Algorithms**&nbsp;&nbsp;·&nbsp;&nbsp;⚙️ **Operating Systems**&nbsp;&nbsp;·&nbsp;&nbsp;🗄️ **DBMS**&nbsp;&nbsp;·&nbsp;&nbsp;🌐 **Computer Networks**
+
+🏛️ **OOP**&nbsp;&nbsp;·&nbsp;&nbsp;📐 **System Design**&nbsp;&nbsp;·&nbsp;&nbsp;🔗 **Distributed Systems**
 
 </div>
 
@@ -205,24 +166,34 @@ Paste a GitHub URL → working Docker environment in minutes. Reduces a 15-step 
 
 ---
 
-## ⬡ &nbsp;NOW
+<br>
+
+<div align="center">
+
+## GitHub Activity
 
 <br>
 
-Deepening into distributed systems — Raft consensus, Kafka event streaming, Kubernetes orchestration.
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&theme=github-compact&bg_color=0d1117&color=8b949e&line=6e7681&point=e6edf3&hide_border=true&area=true" width="100%" />
 
-Building the next iteration of **ContextForge**: request tracing, streaming responses, and cost analytics.
-
-**Actively seeking** backend · AI infrastructure · distributed systems internships for **2025–26**.
+</div>
 
 <br>
 
 ---
 
+<br>
+
 <div align="center">
 
-*Let's build something real.*&nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayushh-o1)&nbsp;
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ayushh.pvt10@gmail.com)
+### Open to Software Engineer (SWE) roles — batch of 2027
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-e6edf3?style=flat-square&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)
+[![Email](https://img.shields.io/badge/Email-e6edf3?style=flat-square&logo=gmail&logoColor=0d1117)](mailto:ayushh.pvt10@gmail.com)
+[![GitHub](https://img.shields.io/badge/Ayush--o1-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
+
+<br>
+
+Last Edited on: 4 July 2026
 
 </div>
