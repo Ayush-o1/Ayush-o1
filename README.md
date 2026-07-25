@@ -2,7 +2,7 @@
 
 # Ayush Kumar
 
-### Backend systems designed around the failure case, not the happy path.
+### Full stack software engineer building production-grade Node.js and React systems — multi-tenant REST/WebSocket APIs, auth, distributed job queues, PostgreSQL data modeling
 
 B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
@@ -12,11 +12,11 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 <br>
 
-**3** Production Systems&nbsp;&nbsp;·&nbsp;&nbsp;**200+** DSA Problems Solved&nbsp;&nbsp;·&nbsp;&nbsp;**SIH Internal** • 3rd Place
+**3** Production Platforms&nbsp;&nbsp;·&nbsp;&nbsp;**70+** REST APIs&nbsp;&nbsp;·&nbsp;&nbsp;**20+** PostgreSQL Models&nbsp;&nbsp;·&nbsp;&nbsp;**250+** DSA Problems Solved&nbsp;&nbsp;·&nbsp;&nbsp;**RIFT Hackathon** Runner-Up (4-Engineer Team)
 
 <br>
 
-[`BlackWater`](#blackwater) &nbsp;·&nbsp; [`StarGate`](#stargate) &nbsp;·&nbsp; [`FreightFlow`](#freightflow)
+[`BlackWater`](#blackwater) &nbsp;·&nbsp; [`StarGate`](#stargate) &nbsp;·&nbsp; [`Project 042-X`](#project-042-x)
 
 </div>
 
@@ -36,21 +36,21 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 <div align="center">
 
-![](https://img.shields.io/badge/-STATUS_PAGE_PLATFORM-f85149?style=flat-square)
+![](https://img.shields.io/badge/-MULTI_TENANT_INCIDENT_PLATFORM-f85149?style=flat-square)
 
-### [BlackWater](https://github.com/Ayush-o1/BlackWater)
+### [BlackWater](https://github.com/Ayush-o1/BlackWater) &nbsp;·&nbsp; [Live Demo](https://black-water-olive.vercel.app/)
 
-**When something breaks, someone declares it — and the public status page updates itself. No cron job. No manual toggle.**
+**Multi-tenant incident management where the lifecycle is a strict state machine — tenant isolation enforced at the database layer, not just the API.**
 
-<img src="https://github.com/Ayush-o1/BlackWater/raw/main/screenshots/02_dashboard.png" width="100%" />
+<img src="https://github.com/Ayush-o1/BlackWater/raw/main/screenshots/dashboard.png" width="100%" />
 
 </div>
 
-- Incident lifecycle is a strict, forward-only state machine — closed incidents are immutable at the database layer
-- Service health is derived automatically from active incidents; nobody flips a status by hand
-- Public API strips internal fields via DTO isolation before anything leaves the server
+- Multi-tenant SaaS platform serving 23 REST APIs across 9 PostgreSQL models, with organization-scoped tenant isolation returning 404 on cross-tenant resource access
+- Incident lifecycle modeled as a 4-state machine, broadcasting 6 Socket.IO event types to org-scoped rooms to drive targeted React Query cache invalidation instead of polling
+- JWT authentication reused for the WebSocket handshake, bcrypt-hashed credentials, 3-tier RBAC across 12 route-level checks, and two-tier rate limiting
 
-`TypeScript` `Node.js` `Express` `PostgreSQL` `Prisma` `Socket.IO` `React`
+`Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Socket.IO` `React` `Tailwind CSS`
 
 <br>
 
@@ -60,21 +60,21 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 <div align="center">
 
-![](https://img.shields.io/badge/-WORKFLOW_AUTOMATION_ENGINE-a371f7?style=flat-square)
+![](https://img.shields.io/badge/-WORKFLOW_ORCHESTRATION_ENGINE-a371f7?style=flat-square)
 
 ### [StarGate](https://github.com/Ayush-o1/StarGate)
 
-**Wire HTTP calls and conditionals into a visual graph, hit run — a worker fleet executes it in dependency order, retries included.**
+**Wire a DAG of HTTP calls and conditionals, hit run — Kahn's algorithm orders execution, BullMQ workers retry with backoff, SSRF defense guards every outbound call.**
 
 <img src="https://github.com/Ayush-o1/StarGate/raw/main/docs/screenshots/workflow-canvas.png" width="100%" />
 
 </div>
 
-- Kahn's algorithm topologically sorts the DAG before a single node runs; cycles are rejected before enqueue
-- Every outbound call passes a DNS-resolve + CIDR SSRF guard first — all RFC 1918 ranges blocked
-- The API responds in milliseconds; BullMQ retries failed nodes with exponential backoff, decoupled from execution time
+- DAG-based workflow orchestration engine on Kahn's algorithm for topological sort and cycle detection, exposing 41 REST APIs over 11 PostgreSQL models in a Dockerized Turborepo monorepo
+- Execution decoupled into 2 BullMQ and Redis queues consumed by a standalone worker process, with exponential-backoff retries, idempotent job IDs, and distributed cron scheduling
+- DNS-pinned SSRF defense re-validates resolved IPs on every redirect before an outbound call is made
 
-`TypeScript` `Node.js` `BullMQ` `Redis` `PostgreSQL` `React Flow` `Docker`
+`Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Redis` `BullMQ` `React` `Docker` `Turborepo`
 
 <br>
 
@@ -84,21 +84,21 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 <div align="center">
 
-![](https://img.shields.io/badge/-LOGISTICS_SAAS_BACKEND-3fb950?style=flat-square)
+![](https://img.shields.io/badge/-STATIC_CODE_ANALYSIS_PLATFORM-3fb950?style=flat-square)
 
-### [FreightFlow](https://github.com/Ayush-o1/FreightFlow)
+### [Project 042-X](https://github.com/Ayush-o1/Project-042-X) &nbsp;·&nbsp; [Live Demo](https://project-042-x.vercel.app/)
 
-**Shippers request, drivers deliver, admins watch it update live — with idempotency keys standing between a slow network and a duplicate charge.**
+**Parses a JavaScript repo into an AST, finds circular dependencies with Tarjan's SCC, and renders the dependency graph without blocking the UI thread.**
 
-<img src="https://github.com/Ayush-o1/FreightFlow/raw/main/docs/screenshots/login.png" width="100%" />
+<img src="https://github.com/Ayush-o1/Project-042-X/raw/main/screenshots/dashboard.png" width="100%" />
 
 </div>
 
-- Shipment status is forward-only and enforced server-side — the client is never trusted with state transitions
-- Every critical mutation requires an idempotency key; the outbox pattern durably logs state before async work runs
-- Full cloud-native footprint — Kubernetes, Terraform, Prometheus + Grafana, with documented disaster-recovery runbooks
+- Static analysis engine parsing JavaScript repositories via AST traversal at a bounded 50-file concurrency, exposing 8 REST APIs for dependency graphs, git history, and code metrics
+- Tarjan's strongly connected components algorithm (O(V+E)) detects circular dependencies; Dagre graph layout is offloaded to a Web Worker to keep the UI responsive
+- Covered by 129 automated tests across 19 suites
 
-`Node.js` `Express` `MongoDB` `Redis` `Socket.IO` `Kubernetes` `Terraform`
+`JavaScript` `React` `Node.js` `Express.js` `SWC` `Web Workers`
 
 <br>
 
