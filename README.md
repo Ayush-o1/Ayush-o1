@@ -42,7 +42,7 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 **Multi-tenant incident management where the lifecycle is a strict state machine — tenant isolation enforced at the database layer, not just the API.**
 
-<img src="https://github.com/Ayush-o1/BlackWater/raw/main/screenshots/dashboard.png" width="100%" />
+<img src="screenshots/blackwater-dashboard.png" width="100%" />
 
 </div>
 
@@ -90,7 +90,7 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 **Parses a JavaScript repo into an AST, finds circular dependencies with Tarjan's SCC, and renders the dependency graph without blocking the UI thread.**
 
-<img src="https://github.com/Ayush-o1/Project-042-X/raw/main/screenshots/dashboard.png" width="100%" />
+<img src="screenshots/project042x-dashboard.png" width="100%" />
 
 </div>
 
