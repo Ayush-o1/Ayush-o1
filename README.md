@@ -11,10 +11,6 @@ B.Tech CSE '27 · Bengaluru, India
 [![Email](https://img.shields.io/badge/Email-e6edf3?style=flat-square&logo=gmail&logoColor=0d1117)](mailto:ayushh.pvt10@gmail.com)
 [![GitHub](https://img.shields.io/badge/Ayush--o1-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
 
-<br>
-
-[`BlackWater`](#blackwater) &nbsp;·&nbsp; [`StarGate`](#stargate) &nbsp;·&nbsp; [`Project 042-X`](#project-042-x)
-
 </div>
 
 <br>
