@@ -2,9 +2,9 @@
 
 # Ayush Kumar
 
-### Full stack software engineer building production-grade Node.js and React systems — multi-tenant REST/WebSocket APIs, auth, distributed job queues, PostgreSQL data modeling
+### Full-Stack Engineer · Node.js · PostgreSQL · Distributed Systems
 
-B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
+B.Tech CSE '27 · Bengaluru, India
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-e6edf3?style=flat-square&logo=vercel&logoColor=0d1117)](https://ayush-kumar-navy.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-e6edf3?style=flat-square&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)
@@ -13,7 +13,10 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 <br>
 
-**3** Production Platforms&nbsp;&nbsp;·&nbsp;&nbsp;**70+** REST APIs&nbsp;&nbsp;·&nbsp;&nbsp;**20+** PostgreSQL Models&nbsp;&nbsp;·&nbsp;&nbsp;**250+** DSA Problems Solved&nbsp;&nbsp;·&nbsp;&nbsp;**RIFT Hackathon** Runner-Up (4-Engineer Team)
+![](https://img.shields.io/badge/Platforms-3-e6edf3?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/REST_APIs-70%2B-e6edf3?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/DSA_Solved-250%2B-e6edf3?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/Hackathon-RIFT_Runner--Up-e6edf3?style=flat-square&labelColor=0d1117)
 
 <br>
 
