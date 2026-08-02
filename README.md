@@ -13,13 +13,6 @@ B.Tech CSE '27 · Bengaluru, India
 
 <br>
 
-![](https://img.shields.io/badge/Platforms-3-e6edf3?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/REST_APIs-70%2B-e6edf3?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/DSA_Solved-250%2B-e6edf3?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/Hackathon-RIFT_Runner--Up-e6edf3?style=flat-square&labelColor=0d1117)
-
-<br>
-
 [`BlackWater`](#blackwater) &nbsp;·&nbsp; [`StarGate`](#stargate) &nbsp;·&nbsp; [`Project 042-X`](#project-042-x)
 
 </div>
