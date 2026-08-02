@@ -2,7 +2,7 @@
 
 # Ayush Kumar
 
-### Full-Stack Engineer · Node.js · PostgreSQL · Distributed Systems
+### Software Engineer
 
 B.Tech CSE '27 · Bengaluru, India
 
