@@ -6,6 +6,7 @@
 
 B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-e6edf3?style=flat-square&logo=vercel&logoColor=0d1117)](https://ayush-kumar-navy.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-e6edf3?style=flat-square&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)
 [![Email](https://img.shields.io/badge/Email-e6edf3?style=flat-square&logo=gmail&logoColor=0d1117)](mailto:ayushh.pvt10@gmail.com)
 [![GitHub](https://img.shields.io/badge/Ayush--o1-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
@@ -188,6 +189,7 @@ B.Tech CSE '27 · Bengaluru, India · Open to Software Engineer (SWE) roles
 
 ### Open to Software Engineer (SWE) roles — batch of 2027
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-e6edf3?style=flat-square&logo=vercel&logoColor=0d1117)](https://ayush-kumar-navy.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-e6edf3?style=flat-square&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)
 [![Email](https://img.shields.io/badge/Email-e6edf3?style=flat-square&logo=gmail&logoColor=0d1117)](mailto:ayushh.pvt10@gmail.com)
 [![GitHub](https://img.shields.io/badge/Ayush--o1-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
