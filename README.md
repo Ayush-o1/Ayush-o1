@@ -1,193 +1,90 @@
-<div align="center">
-
 # Ayush Kumar
 
-### Software Engineer
+Backend-leaning full-stack. Bengaluru, India · B.Tech CSE, 2027.
 
-B.Tech CSE '27 · Bengaluru, India
+[Portfolio](https://ayush-kumar-navy.vercel.app/) · [LinkedIn](https://linkedin.com/in/ayushh-o1) · [Email](mailto:ayushh.pvt10@gmail.com) · [LeetCode](https://leetcode.com/u/tZbaWZwiWk/)
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-e6edf3?style=flat-square&logo=vercel&logoColor=0d1117)](https://ayush-kumar-navy.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-e6edf3?style=flat-square&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)
-[![Email](https://img.shields.io/badge/Email-e6edf3?style=flat-square&logo=gmail&logoColor=0d1117)](mailto:ayushh.pvt10@gmail.com)
-[![GitHub](https://img.shields.io/badge/Ayush--o1-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
+Most of what I build ends up being server-side: multi-tenant isolation, job queues that survive a restart, WebSocket state that has to stay correct while several people are looking at it. I tend to spend about as long on the part that proves something works as on the thing itself.
 
-</div>
+## Now
 
-<br>
+Wrapping up **[Velora](https://github.com/Ayush-o1/velora)** — a session-booking marketplace on Django and Next.js, built around one hard requirement: a one-seat session must never be double-booked, and that has to be demonstrable rather than asserted.
 
----
+Before that, **Argus**, which is the largest thing I've built and the one I'd most want to be asked about.
 
-<br>
+## Selected work
 
-<div align="center">
+### [Argus](https://github.com/Ayush-o1/Argus) — graph investigation platform on synthetic data
 
-## Featured Projects
+A world of 70 cities across 50 countries, procedurally generated down to the transactions — roughly 20K nodes and 90K relationships, none of it real. Neo4j with the GDS plugin runs PageRank, Louvain communities and cycle detection; scikit-learn does transaction anomaly detection; FastAPI serves it and a Next.js frontend draws it as a Cytoscape graph and a deck.gl map.
 
-</div>
+The part worth looking at is the honesty layer. Argus scores its own detectors against ground truth the model never reads and publishes the precision and recall it gets, and a test fails the build if any UI surface reads the generator's answer key.
 
-<br>
+`Python` · `FastAPI` · `Neo4j + GDS` · `PostgreSQL` · `Next.js` · `TypeScript` — ~74k lines, 55 test files, CI, 12 docs
 
-<div align="center">
+The [hosted instance](https://argus-rosy-one.vercel.app) is the landing page only — the graph backend runs locally.
 
-![](https://img.shields.io/badge/-MULTI_TENANT_INCIDENT_PLATFORM-f85149?style=flat-square)
+### [Project 042-X](https://github.com/Ayush-o1/Project-042-X) — codebase intelligence
 
-### [BlackWater](https://github.com/Ayush-o1/BlackWater) &nbsp;·&nbsp; [Live Demo](https://black-water-olive.vercel.app/)
+Give it a public GitHub URL and it clones the repo, parses every file to an AST with SWC, builds the dependency graph and reads the full git history. Tarjan's SCC finds the circular dependencies; Dagre layout is pushed into a Web Worker so a few thousand nodes don't freeze the tab.
 
-**Multi-tenant incident management where the lifecycle is a strict state machine — tenant isolation enforced at the database layer, not just the API.**
+`TypeScript` · `React` · `Node.js` · `Express` · `SWC` — 152 tests across 20 files
 
-<img src="screenshots/blackwater-dashboard.png" width="100%" />
+**[Try it](https://project-042-x.vercel.app/)** — the backend sleeps on free hosting, so the first analysis takes a moment.
 
-</div>
+### [StarGate](https://github.com/Ayush-o1/StarGate) — workflow orchestration
 
-- Multi-tenant SaaS platform serving 23 REST APIs across 9 PostgreSQL models, with organization-scoped tenant isolation returning 404 on cross-tenant resource access
-- Incident lifecycle modeled as a 4-state machine, broadcasting 6 Socket.IO event types to org-scoped rooms to drive targeted React Query cache invalidation instead of polling
-- JWT authentication reused for the WebSocket handshake, bcrypt-hashed credentials, 3-tier RBAC across 12 route-level checks, and two-tier rate limiting
+Wire HTTP calls and conditionals into a DAG on a canvas and hit run. Kahn's algorithm produces the execution order and catches cycles on the way; a standalone BullMQ worker runs the jobs with exponential backoff, and a second queue handles cron triggers.
 
-`Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Socket.IO` `React` `Tailwind CSS`
+Every outbound call passes a DNS-pinned SSRF guard that re-resolves and re-checks the IP on each redirect — blocking private ranges and `169.254.169.254` without also blocking Cloudflare, which it did at first.
 
-<br>
+`TypeScript` · `Node.js` · `PostgreSQL` · `Prisma` · `Redis` · `BullMQ` · `React Flow` · `Docker` · `Turborepo`
 
----
+### [BlackWater](https://github.com/Ayush-o1/BlackWater) — multi-tenant incident management
 
-<br>
+Incidents move through a four-state lifecycle and a public status page reflects it live. Six Socket.IO event types drive targeted React Query invalidation rather than polling, and the JWT issued at login is reused for the socket handshake instead of inventing a second auth path.
 
-<div align="center">
+Tenant isolation is enforced in the query layer, and a cross-org request returns 404 rather than 403 — a 403 would confirm the resource exists.
 
-![](https://img.shields.io/badge/-WORKFLOW_ORCHESTRATION_ENGINE-a371f7?style=flat-square)
+`TypeScript` · `Express` · `PostgreSQL` · `Prisma` · `Socket.IO` · `React` — CI runs the suite against a real Postgres service
 
-### [StarGate](https://github.com/Ayush-o1/StarGate)
-
-**Wire a DAG of HTTP calls and conditionals, hit run — Kahn's algorithm orders execution, BullMQ workers retry with backoff, SSRF defense guards every outbound call.**
-
-<img src="https://github.com/Ayush-o1/StarGate/raw/main/docs/screenshots/workflow-canvas.png" width="100%" />
-
-</div>
-
-- DAG-based workflow orchestration engine on Kahn's algorithm for topological sort and cycle detection, exposing 41 REST APIs over 11 PostgreSQL models in a Dockerized Turborepo monorepo
-- Execution decoupled into 2 BullMQ and Redis queues consumed by a standalone worker process, with exponential-backoff retries, idempotent job IDs, and distributed cron scheduling
-- DNS-pinned SSRF defense re-validates resolved IPs on every redirect before an outbound call is made
-
-`Node.js` `Express.js` `PostgreSQL` `Prisma ORM` `Redis` `BullMQ` `React` `Docker` `Turborepo`
+<details>
+<summary>Other things I've built</summary>
 
 <br>
 
----
+**[ContextForge](https://github.com/Ayush-o1/contextforge)** — an OpenAI-compatible proxy you point your app at instead of the provider. Semantic caching over FAISS and Redis, rule-based routing between model tiers, context compression on long conversations, and telemetry for what it saved you. FastAPI, forwarding through LiteLLM. Built with three others at the RIFT hackathon, where it placed runner-up; I was on architecture.
 
-<br>
+**[Velora](https://github.com/Ayush-o1/velora)** — session marketplace on Django 5 and Next.js 16, four containers behind a single Nginx port. GitHub OAuth in, JWT out.
 
-<div align="center">
+**[CareIQ](https://github.com/Ayush-o1/cura-readmission-prediction)** — predicts 30-day hospital readmission and explains the prediction with SHAP instead of returning a bare score. XGBoost over a star-schema warehouse, Airflow-orchestrated ETL.
 
-![](https://img.shields.io/badge/-STATIC_CODE_ANALYSIS_PLATFORM-3fb950?style=flat-square)
+**[Sentinel](https://github.com/Ayush-o1/sentinel)** — spam classification for email and SMS with confidence scores, served behind a web UI. Python, scikit-learn, FastAPI.
 
-### [Project 042-X](https://github.com/Ayush-o1/Project-042-X) &nbsp;·&nbsp; [Live Demo](https://project-042-x.vercel.app/)
+</details>
 
-**Parses a JavaScript repo into an AST, finds circular dependencies with Tarjan's SCC, and renders the dependency graph without blocking the UI thread.**
+## Proving it works
 
-<img src="screenshots/project042x-dashboard.png" width="100%" />
+Three habits that don't show up in a language chart:
 
-</div>
+- **Velora** ships a `prove_concurrency` management command whose only job is to fire N concurrent bookings at a one-seat session, on real threads with real database connections, and report what happened. `select_for_update` inside a transaction is the answer; the command is the receipt. [`DECISIONS.md`](https://github.com/Ayush-o1/velora/blob/main/DECISIONS.md) records the two approaches I rejected and why.
 
-- Static analysis engine parsing JavaScript repositories via AST traversal at a bounded 50-file concurrency, exposing 8 REST APIs for dependency graphs, git history, and code metrics
-- Tarjan's strongly connected components algorithm (O(V+E)) detects circular dependencies; Dagre graph layout is offloaded to a Web Worker to keep the UI responsive
-- Covered by 129 automated tests across 19 suites
+- **StarGate** treats its SSRF guard as something to verify rather than assume. `ssrf.verify.ts` sits next to the guard and walks a table of cases — loopback, every private range, the cloud metadata endpoint — asserting each verdict. The Cloudflare case is in there because the guard got it wrong once.
 
-`JavaScript` `React` `Node.js` `Express.js` `SWC` `Web Workers`
+- **Argus** publishes what it cannot detect. Two of its planted storylines leave no signal an honest detector could reach, so their recall is 0 — printed with the reason beside it, rather than dropped from the average to make the rest of the numbers look better.
 
-<br>
+## What I reach for
 
----
+**Server** — Node/Express and FastAPI, mostly TypeScript and Python. Postgres by default, Prisma when it's Node. Redis and BullMQ for anything that shouldn't happen inside a request. Neo4j on Argus, because the questions there were genuinely graph questions.
 
-<br>
+**Client** — React with TanStack Query and Tailwind; Next.js on the newer work. Enough to build the front end my backend needs, and I enjoy it more than I expected to.
 
-<div align="center">
+**Around it** — Docker Compose for local infra, GitHub Actions, pytest and Vitest, Turborepo where the monorepo earned it.
 
-## Other Projects
+**Also** — C++ for data structures and algorithms, around 250 problems in. Django on Velora, which was my first time with it.
 
-</div>
+## Reaching me
 
-<br>
+Seventh semester now, graduating 2027, and looking for software engineering roles — backend or full-stack. Email is the fastest way to get me.
 
-**[CareIQ](https://github.com/Ayush-o1/cura-readmission-prediction)** — Predicts which patients are likely to be readmitted within 30 days of discharge, and explains why with SHAP instead of a black-box score. XGBoost scoring 0.84 AUROC on a star-schema warehouse, Airflow-orchestrated ETL.
-`Python` `FastAPI` `XGBoost` `Airflow` `PostgreSQL`
-
-**[AutoPrompt](https://github.com/Ayush-o1/auto-Prompt)** — Treats prompt engineering as a versioned software artifact: YAML-driven prompts with automated scoring on every commit.
-
-**[SwitchBoard](https://github.com/Ayush-o1/switchboard)** — Self-hosted LLM gateway that routes across OpenAI, Anthropic, Gemini, and HuggingFace with automatic failover, serving repeated prompts from a two-pass semantic cache in milliseconds at zero cost.
-`Python` `FastAPI` `PostgreSQL` `pgvector` `Docker`
-
-<br>
-
----
-
-<br>
-
-<div align="center">
-
-## Tech Stack
-
-<br>
-
-**Languages**
-<img src="https://skillicons.dev/icons?i=ts,js,python,cpp" />
-
-<br><br>
-
-**Backend & Data**
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,redis" />
-
-<br><br>
-
-**Frontend**
-<img src="https://skillicons.dev/icons?i=react,tailwind" />
-
-<br><br>
-
-**Infrastructure**
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,githubactions,git" />
-
-<br><br>
-
-**Core CS**
-
-🧩 **Data Structures & Algorithms**&nbsp;&nbsp;·&nbsp;&nbsp;⚙️ **Operating Systems**&nbsp;&nbsp;·&nbsp;&nbsp;🗄️ **DBMS**&nbsp;&nbsp;·&nbsp;&nbsp;🌐 **Computer Networks**
-
-🏛️ **OOP**&nbsp;&nbsp;·&nbsp;&nbsp;📐 **System Design**&nbsp;&nbsp;·&nbsp;&nbsp;🔗 **Distributed Systems**
-
-</div>
-
-<br>
-
----
-
-<br>
-
-<div align="center">
-
-## GitHub Activity
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ayush-o1&theme=github-compact&bg_color=0d1117&color=8b949e&line=6e7681&point=e6edf3&hide_border=true&area=true" width="100%" />
-
-</div>
-
-<br>
-
----
-
-<br>
-
-<div align="center">
-
-### Open to Software Engineer (SWE) roles — batch of 2027
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-e6edf3?style=flat-square&logo=vercel&logoColor=0d1117)](https://ayush-kumar-navy.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-e6edf3?style=flat-square&logo=linkedin&logoColor=0d1117)](https://linkedin.com/in/ayushh-o1)
-[![Email](https://img.shields.io/badge/Email-e6edf3?style=flat-square&logo=gmail&logoColor=0d1117)](mailto:ayushh.pvt10@gmail.com)
-[![GitHub](https://img.shields.io/badge/Ayush--o1-e6edf3?style=flat-square&logo=github&logoColor=0d1117)](https://github.com/Ayush-o1)
-
-<br>
-
-Last Edited on: 4 July 2026
-
-</div>
+[Portfolio](https://ayush-kumar-navy.vercel.app/) · [LinkedIn](https://linkedin.com/in/ayushh-o1) · [ayushh.pvt10@gmail.com](mailto:ayushh.pvt10@gmail.com)
