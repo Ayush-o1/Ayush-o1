@@ -1,90 +1,92 @@
 # Ayush Kumar
 
-Backend-leaning full-stack. Bengaluru, India · B.Tech CSE, 2027.
+**Backend systems, and the proof they hold up.**
+
+Bengaluru · B.Tech CSE 2027 · open to software engineering roles
 
 [Portfolio](https://ayush-kumar-navy.vercel.app/) · [LinkedIn](https://linkedin.com/in/ayushh-o1) · [Email](mailto:ayushh.pvt10@gmail.com) · [LeetCode](https://leetcode.com/u/tZbaWZwiWk/)
 
-Most of what I build ends up being server-side: multi-tenant isolation, job queues that survive a restart, WebSocket state that has to stay correct while several people are looking at it. I tend to spend about as long on the part that proves something works as on the thing itself.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" width="100%" alt="Fifteen concurrent booking requests race for a single seat. A SELECT FOR UPDATE row lock admits exactly one, which returns 201 Created; the other fourteen return 409 Conflict.">
+</picture>
 
-## Now
-
-Wrapping up **[Velora](https://github.com/Ayush-o1/velora)** — a session-booking marketplace on Django and Next.js, built around one hard requirement: a one-seat session must never be double-booked, and that has to be demonstrable rather than asserted.
-
-Before that, **Argus**, which is the largest thing I've built and the one I'd most want to be asked about.
+<sub>Velora ships this as a management command, so the claim is reproducible instead of asserted.</sub>
 
 ## Selected work
 
-### [Argus](https://github.com/Ayush-o1/Argus) — graph investigation platform on synthetic data
+### [Argus](https://github.com/Ayush-o1/Argus) — graph investigation on synthetic data
 
-A world of 70 cities across 50 countries, procedurally generated down to the transactions — roughly 20K nodes and 90K relationships, none of it real. Neo4j with the GDS plugin runs PageRank, Louvain communities and cycle detection; scikit-learn does transaction anomaly detection; FastAPI serves it and a Next.js frontend draws it as a Cytoscape graph and a deck.gl map.
+[![Argus — a graph investigation workspace over a fully synthetic world of 4,000 people, 409 organizations and 40,080 transactions.](assets/argus.jpg)](https://github.com/Ayush-o1/Argus)
 
-The part worth looking at is the honesty layer. Argus scores its own detectors against ground truth the model never reads and publishes the precision and recall it gets, and a test fails the build if any UI surface reads the generator's answer key.
+A graph investigation platform over a world that doesn't exist — 70 cities, 50 countries, every entity procedurally generated. Neo4j and GDS run the analytics; scikit-learn finds the anomalies.
 
-`Python` · `FastAPI` · `Neo4j + GDS` · `PostgreSQL` · `Next.js` · `TypeScript` — ~74k lines, 55 test files, CI, 12 docs
+It grades its own detectors against ground truth the model never sees, and publishes the score including the cases it fails.
 
-The [hosted instance](https://argus-rosy-one.vercel.app) is the landing page only — the graph backend runs locally.
+`Python` `FastAPI` `Neo4j` `PostgreSQL` `Next.js` — 74k lines · 55 test files · CI · 12 docs
 
 ### [Project 042-X](https://github.com/Ayush-o1/Project-042-X) — codebase intelligence
 
-Give it a public GitHub URL and it clones the repo, parses every file to an AST with SWC, builds the dependency graph and reads the full git history. Tarjan's SCC finds the circular dependencies; Dagre layout is pushed into a Web Worker so a few thousand nodes don't freeze the tab.
+[![Project 042-X — repository insights showing dependency counts, module health scores and architecture signals for an analyzed codebase.](assets/x042.jpg)](https://project-042-x.vercel.app/)
 
-`TypeScript` · `React` · `Node.js` · `Express` · `SWC` — 152 tests across 20 files
+Give it a public GitHub URL. It parses every file to an AST with SWC, builds the dependency graph, and reads the git history.
 
-**[Try it](https://project-042-x.vercel.app/)** — the backend sleeps on free hosting, so the first analysis takes a moment.
+Tarjan's SCC finds the circular imports; Dagre layout runs in a Web Worker so the graph doesn't freeze the tab.
+
+`TypeScript` `React` `Node.js` `SWC` — 152 tests
+
+**[Try it →](https://project-042-x.vercel.app/)** &nbsp;·&nbsp; the backend sleeps on free hosting, so the first run is slow
 
 ### [StarGate](https://github.com/Ayush-o1/StarGate) — workflow orchestration
 
-Wire HTTP calls and conditionals into a DAG on a canvas and hit run. Kahn's algorithm produces the execution order and catches cycles on the way; a standalone BullMQ worker runs the jobs with exponential backoff, and a second queue handles cron triggers.
+[![StarGate — an HTTP node branching into a conditional node and a second HTTP node on the workflow canvas.](assets/stargate.jpg)](https://github.com/Ayush-o1/StarGate)
 
-Every outbound call passes a DNS-pinned SSRF guard that re-resolves and re-checks the IP on each redirect — blocking private ranges and `169.254.169.254` without also blocking Cloudflare, which it did at first.
+Wire HTTP calls and conditionals into a DAG, hit run. Kahn's algorithm orders execution and catches cycles; a standalone BullMQ worker retries with backoff.
 
-`TypeScript` · `Node.js` · `PostgreSQL` · `Prisma` · `Redis` · `BullMQ` · `React Flow` · `Docker` · `Turborepo`
+Outbound calls pass a DNS-pinned SSRF guard that re-checks the resolved IP on every redirect.
+
+`TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Docker` `Turborepo`
 
 ### [BlackWater](https://github.com/Ayush-o1/BlackWater) — multi-tenant incident management
 
-Incidents move through a four-state lifecycle and a public status page reflects it live. Six Socket.IO event types drive targeted React Query invalidation rather than polling, and the JWT issued at login is reused for the socket handshake instead of inventing a second auth path.
+[![BlackWater — an incident dashboard showing degraded system status, two active incidents across three services.](assets/blackwater.jpg)](https://github.com/Ayush-o1/BlackWater)
 
-Tenant isolation is enforced in the query layer, and a cross-org request returns 404 rather than 403 — a 403 would confirm the resource exists.
+Multi-tenant incident management with a live public status page. Socket.IO events drive targeted cache invalidation instead of polling.
 
-`TypeScript` · `Express` · `PostgreSQL` · `Prisma` · `Socket.IO` · `React` — CI runs the suite against a real Postgres service
+A cross-org request returns 404, not 403 — a 403 would confirm the resource exists.
+
+`TypeScript` `Express` `PostgreSQL` `Prisma` `Socket.IO` `React` — CI runs against a real Postgres
 
 <details>
 <summary>Other things I've built</summary>
 
 <br>
 
-**[ContextForge](https://github.com/Ayush-o1/contextforge)** — an OpenAI-compatible proxy you point your app at instead of the provider. Semantic caching over FAISS and Redis, rule-based routing between model tiers, context compression on long conversations, and telemetry for what it saved you. FastAPI, forwarding through LiteLLM. Built with three others at the RIFT hackathon, where it placed runner-up; I was on architecture.
+**[ContextForge](https://github.com/Ayush-o1/contextforge)** — an OpenAI-compatible proxy with semantic caching, model-tier routing and context compression. Built with three others at the RIFT hackathon, where it placed runner-up.
 
-**[Velora](https://github.com/Ayush-o1/velora)** — session marketplace on Django 5 and Next.js 16, four containers behind a single Nginx port. GitHub OAuth in, JWT out.
+**[Velora](https://github.com/Ayush-o1/velora)** — session marketplace on Django 5 and Next.js 16, four containers behind one Nginx port.
 
-**[CareIQ](https://github.com/Ayush-o1/cura-readmission-prediction)** — predicts 30-day hospital readmission and explains the prediction with SHAP instead of returning a bare score. XGBoost over a star-schema warehouse, Airflow-orchestrated ETL.
+**[CareIQ](https://github.com/Ayush-o1/cura-readmission-prediction)** — 30-day hospital readmission risk, explained with SHAP rather than returned as a bare score.
 
-**[Sentinel](https://github.com/Ayush-o1/sentinel)** — spam classification for email and SMS with confidence scores, served behind a web UI. Python, scikit-learn, FastAPI.
+**[Sentinel](https://github.com/Ayush-o1/sentinel)** — spam classification for email and SMS, served behind a web UI.
 
 </details>
 
 ## Proving it works
 
-Three habits that don't show up in a language chart:
+- **[Velora](https://github.com/Ayush-o1/velora/blob/main/DECISIONS.md)** — a `prove_concurrency` command fires N real threads at a one-seat session and reports what happened. `DECISIONS.md` records the two approaches I rejected.
+- **StarGate** — `ssrf.verify.ts` walks a table of addresses and asserts each verdict. The Cloudflare case is in there because the guard got it wrong once.
+- **Argus** — two planted storylines leave no signal an honest detector could reach, so their recall is 0, printed with the reason beside it.
 
-- **Velora** ships a `prove_concurrency` management command whose only job is to fire N concurrent bookings at a one-seat session, on real threads with real database connections, and report what happened. `select_for_update` inside a transaction is the answer; the command is the receipt. [`DECISIONS.md`](https://github.com/Ayush-o1/velora/blob/main/DECISIONS.md) records the two approaches I rejected and why.
+## What I build with
 
-- **StarGate** treats its SSRF guard as something to verify rather than assume. `ssrf.verify.ts` sits next to the guard and walks a table of cases — loopback, every private range, the cloud metadata endpoint — asserting each verdict. The Cloudflare case is in there because the guard got it wrong once.
-
-- **Argus** publishes what it cannot detect. Two of its planted storylines leave no signal an honest detector could reach, so their recall is 0 — printed with the reason beside it, rather than dropped from the average to make the rest of the numbers look better.
-
-## What I reach for
-
-**Server** — Node/Express and FastAPI, mostly TypeScript and Python. Postgres by default, Prisma when it's Node. Redis and BullMQ for anything that shouldn't happen inside a request. Neo4j on Argus, because the questions there were genuinely graph questions.
-
-**Client** — React with TanStack Query and Tailwind; Next.js on the newer work. Enough to build the front end my backend needs, and I enjoy it more than I expected to.
-
-**Around it** — Docker Compose for local infra, GitHub Actions, pytest and Vitest, Turborepo where the monorepo earned it.
-
-**Also** — C++ for data structures and algorithms, around 250 problems in. Django on Velora, which was my first time with it.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.svg">
+  <img src="assets/flow-light.svg" width="100%" alt="Client built with React, Next.js and TanStack Query; API in Express, FastAPI or Django; async work on BullMQ, Redis and Socket.IO; data in PostgreSQL via Prisma, or Neo4j. Docker, GitHub Actions, pytest, Vitest, Turborepo and C++ for DSA around all of it.">
+</picture>
 
 ## Reaching me
 
-Seventh semester now, graduating 2027, and looking for software engineering roles — backend or full-stack. Email is the fastest way to get me.
+Email is fastest — [ayushh.pvt10@gmail.com](mailto:ayushh.pvt10@gmail.com) — or [LinkedIn](https://linkedin.com/in/ayushh-o1) and [my portfolio](https://ayush-kumar-navy.vercel.app/).
 
-[Portfolio](https://ayush-kumar-navy.vercel.app/) · [LinkedIn](https://linkedin.com/in/ayushh-o1) · [ayushh.pvt10@gmail.com](mailto:ayushh.pvt10@gmail.com)
+<sub>Last updated: 28 August 2026</sub>
