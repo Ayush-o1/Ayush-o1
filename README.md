@@ -7,13 +7,11 @@ Bengaluru · B.Tech CSE 2027 · open to software engineering roles
 [Portfolio](https://ayush-kumar-navy.vercel.app/) · [LinkedIn](https://linkedin.com/in/ayushh-o1) · [Email](mailto:ayushh.pvt10@gmail.com) · [LeetCode](https://leetcode.com/u/tZbaWZwiWk/)
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/hero-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" width="100%" alt="Fifteen concurrent booking requests hit a session with one seat. A row lock admits exactly one, which commits with 201 Created; the remaining fourteen queue at the lock and are rejected with 409 Conflict. The seat counter falls from one to zero.">
+  <img src="assets/hero-light.svg" width="100%" alt="Fifteen concurrent booking requests race for a single seat. A SELECT FOR UPDATE row lock admits exactly one, which returns 201 Created; the other fourteen return 409 Conflict.">
 </picture>
 
-<sub>Fifteen threads, one seat. `prove_concurrency` ships in Velora, so that claim is reproducible rather than asserted.</sub>
+<sub>Velora ships this as a management command, so the claim is reproducible instead of asserted.</sub>
 
 ## Selected work
 
@@ -83,10 +81,8 @@ A cross-org request returns 404, not 403 — a 403 would confirm the resource ex
 ## What I build with
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/flow-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/flow-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/flow-dark.svg">
-  <img src="assets/flow-light.svg" width="100%" alt="A request moves through four stages: a client built with React, Next.js and TanStack Query; an API in Express, FastAPI or Django; async work on BullMQ, Redis and Socket.IO; and data in PostgreSQL via Prisma, or Neo4j. The response returns to the client. Docker, GitHub Actions, pytest, Vitest, Turborepo and C++ for DSA sit around all of it.">
+  <img src="assets/flow-light.svg" width="100%" alt="Client built with React, Next.js and TanStack Query; API in Express, FastAPI or Django; async work on BullMQ, Redis and Socket.IO; data in PostgreSQL via Prisma, or Neo4j. Docker, GitHub Actions, pytest, Vitest, Turborepo and C++ for DSA around all of it.">
 </picture>
 
 ## Reaching me
