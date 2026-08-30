@@ -1,6 +1,6 @@
 # Ayush Kumar
 
-**I mostly build backend systems — APIs, queues, and the data underneath them.**
+**Mostly backend — APIs, queues, and data models — and the frontend when a project needs one.**
 
 B.Tech CSE '27 · Bengaluru, India  
 Looking for software development / software engineer roles.
@@ -13,16 +13,10 @@ Outside code I edit video, follow space, and read more history and geopolitics t
 
 ## Selected work
 
-**[Argus](https://github.com/Ayush-o1/Argus)** — A graph investigation platform over a synthetic world of 70 cities and 50 countries, which grades its own detectors against ground truth and publishes the cases it misses.  
+**[Argus](https://github.com/Ayush-o1/Argus)** — A graph investigation platform built entirely on generated data: 70 cities, 50 countries, no real people anywhere in it. Neo4j runs the graph analytics and scikit-learn finds the anomalies. It grades its own detectors against ground truth and publishes the cases it gets wrong.  
 *Python, FastAPI, Neo4j, Next.js*
 
-**[Project 042-X](https://project-042-x.vercel.app/)** — Point it at a public GitHub repo and it parses every file to an AST, builds the dependency graph, and finds the circular imports.  
-*TypeScript, React, SWC*
-
-**[StarGate](https://github.com/Ayush-o1/StarGate)** — Wire HTTP calls and conditionals into a DAG and run it, behind an SSRF guard that re-checks the resolved IP on every redirect.  
-*TypeScript, Redis, BullMQ, Docker*
-
-**[BlackWater](https://github.com/Ayush-o1/BlackWater)** — Multi-tenant incident management where a cross-org request returns 404 rather than 403, because a 403 would confirm the resource exists.  
+**[BlackWater](https://github.com/Ayush-o1/BlackWater)** — Multi-tenant incident management with a live status page. A cross-org request returns 404 rather than 403, because a 403 would confirm the resource exists.  
 *TypeScript, PostgreSQL, Socket.IO*
 
 Also [ContextForge](https://github.com/Ayush-o1/contextforge), an LLM proxy that was runner-up at the RIFT hackathon.
