@@ -9,7 +9,7 @@ I spend about as long convincing myself something works as I do building it. Mos
 
 Right now I'm building [Argus](https://github.com/Ayush-o1/Argus) — the biggest thing I've taken on so far, and nowhere near done.
 
-Outside code I edit video, follow space, and read more history and geopolitics than is probably useful. Films too, though I'll sit through a bad one just to see how it ends.
+Outside code I love editing video, follow space, and read more history and geopolitics than is probably useful. Films too, though I'll sit through a bad one just to see how it ends.
 
 ## Selected work
 
