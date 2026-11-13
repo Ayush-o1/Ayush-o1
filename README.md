@@ -1,6 +1,6 @@
-<a href="https://ayush-kumar-navy.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg"><img src="assets/masthead-light.svg" alt="Ayush Kumar, backend software engineer, Bengaluru" width="560"></picture></a>
+<a href="https://ayush-kumar-navy.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg"><img src="assets/masthead-light.svg" alt="Ayush Kumar, software engineer, Bengaluru" width="560"></picture></a>
 
-Mostly backend: APIs, job queues and data models. I build the frontend too when a project needs one.
+I build web applications from the database to the interface: data models, APIs, job queues and the screens on top.
 
 I spend about as long convincing myself something works as I do building it. Every project below ships with a written list of what it can't do.
 
@@ -50,8 +50,6 @@ C++ is what I use for data structures and algorithms on [LeetCode](https://leetc
 
 ## Contact
 
-Email is the fastest way to reach me: [ayushh.pvt10@gmail.com](mailto:ayushh.pvt10@gmail.com)
-
-[Portfolio](https://ayush-kumar-navy.vercel.app/), [LinkedIn](https://linkedin.com/in/ayushh-o1)
+[Email](mailto:ayushh.pvt10@gmail.com) is the fastest way to reach me. I'm also on [LinkedIn](https://linkedin.com/in/ayushh-o1), and the rest is on my [portfolio](https://ayush-kumar-navy.vercel.app/).
 
 <sub>Away from code: video editing, space, and more history and geopolitics than is probably useful. Films too. I'll sit through a bad one just to see how it ends.</sub>
