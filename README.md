@@ -2,9 +2,7 @@
 
 I build web applications from the database to the interface: data models, APIs, job queues and the screens on top.
 
-I spend about as long convincing myself something works as I do building it. Every project below ships with a written list of what it can't do.
-
-Final-year B.Tech in Computer Science at Jain (Deemed-to-be University), graduating June 2027. Looking for SDE and software engineer roles: [ayushh.pvt10@gmail.com](mailto:ayushh.pvt10@gmail.com)
+I spend about as long convincing myself something works as I do building it. Every project below ships with a written list of what it can't do , Fastest way to reach me [ayushh.pvt10@gmail.com](mailto:ayushh.pvt10@gmail.com).
 
 ## Selected work
 
