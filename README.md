@@ -46,7 +46,3 @@ C++ is what I use for data structures and algorithms on [LeetCode](https://leetc
 
 ## Contact
 I'm also on [LinkedIn](https://linkedin.com/in/ayushh-o1), and the rest is on my [portfolio](https://ayush-kumar-navy.vercel.app/).
-
-<p align="center"><sub>Last updated: 10 Nov 2026</sub></p>
-<sub>Away from code: video editing, space, and more history and geopolitics than is probably useful. Films too. I'll sit through a bad one just to see how it ends.</sub>
-
