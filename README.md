@@ -10,23 +10,17 @@ I spend about as long convincing myself something works as I do building it. Eve
 
 A graph investigation platform over a synthetic world of 70 cities and 50 countries, with no real people in it. FastAPI serves graph analytics from Neo4j. PostgreSQL holds identity, provenance and a durable job queue. The largest thing I've built.
 
-> It scores its own detectors against ground truth they cannot read, then publishes the storylines they miss.
-
 <sub>Python, FastAPI, Neo4j, PostgreSQL, Redis, Next.js</sub>
 
 ### [BlackWater](https://github.com/Ayush-o1/BlackWater)
 
 Multi-tenant incident management with a public status page. Each change to an incident locks the row, checks the lifecycle and writes its audit entry in one transaction.
 
-> A cross-org request returns 404, not 403. A 403 would confirm the resource exists.
-
 <sub>Node.js, Express, PostgreSQL, Prisma, Socket.IO</sub>
 
 ### [BeetleJuice](https://github.com/Ayush-o1/BeetleJuice)
 
 Settlement reconciliation on synthetic payment data. It compares a merchant's ledger with a processor's settlement file and gives every record exactly one explained outcome.
-
-> A fix needs a second person. Self-approval is refused by the API and again by a database trigger.
 
 <sub>Node.js, Express, PostgreSQL, plain SQL</sub>
 
