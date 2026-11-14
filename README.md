@@ -45,7 +45,6 @@ Settlement reconciliation on synthetic payment data. It compares a merchant's le
 C++ is what I use for data structures and algorithms on [LeetCode](https://leetcode.com/u/tZbaWZwiWk/).
 
 ## Contact
-
-[Email](mailto:ayushh.pvt10@gmail.com) is the fastest way to reach me. I'm also on [LinkedIn](https://linkedin.com/in/ayushh-o1), and the rest is on my [portfolio](https://ayush-kumar-navy.vercel.app/).
+I'm also on [LinkedIn](https://linkedin.com/in/ayushh-o1), and the rest is on my [portfolio](https://ayush-kumar-navy.vercel.app/).
 
 <sub>Away from code: video editing, space, and more history and geopolitics than is probably useful. Films too. I'll sit through a bad one just to see how it ends.</sub>
