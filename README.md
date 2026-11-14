@@ -30,11 +30,9 @@ Settlement reconciliation on synthetic payment data. It compares a merchant's le
 
 <sub>Node.js, Express, PostgreSQL, plain SQL</sub>
 
-## More projects
+### More
 
-- **[theRedArmy](https://github.com/Ayush-o1/theRedArmy)**: regression testing for LLM prompts. Workers claim jobs from PostgreSQL with `SKIP LOCKED`, and a CI gate fails the build when a prompt change breaks a case that used to pass. Team project.
-- **[deadLetter](https://github.com/Ayush-o1/deadLetter)**: an action firewall for AI agents, after the CaMeL paper. Every value carries a label for where it came from, so injected text can't choose which tool runs. A research prototype.
-- **[Europa](https://github.com/Ayush-o1/Europa)**: links successive satellite close-approach reports into one event and tracks how the predicted miss distance moves. An analysis tool, not a collision-avoidance system.
+- [theRedArmy](https://github.com/Ayush-o1/theRedArmy) , [deadLetter](https://github.com/Ayush-o1/deadLetter) , [Europa](https://github.com/Ayush-o1/Europa).
 
 ## Stack
 
